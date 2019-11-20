@@ -39,7 +39,7 @@ I have conducted my research on two areas from theoretical point:
 
   
 
-+ The second is plate theory in mechanics. As we know, the modes of plates is extremely complex so that it incur huge surprice and confusion in Pairs Academy when Chladni exhibited the so-called Chladni Figures in there. My research is analyze the high order modes of plates which can be used in electronic areas, especially the acoustics wave devices.
++ The second is plate theory in mechanics. As we know, the modes of plates is extremely complex so that it incur huge surprice and confusion in Pairs Academy when Chladni exhibited the so-called Chladni Figures here. My research is analyze the high order modes of plates which can be used in electronic areas, especially the acoustics wave devices.
 
 
 

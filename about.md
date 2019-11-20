@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/profile.jpg" caption="A sassy caption here" width=300 align="right" %}
+{% include image.html url="/images/profile.jpg" caption="My profile" width=300 align="right" %}
 
 I have coded some programs by Fortran and MATLAB, for more than 50000 lines and 10000 lines respectively, in molecular simulation and numerical computation. Moreover, due to my graduate major is theoretical physics, I am familiar with basic physics subjects such as quantum field theory, quantum mechanics, statistical mechanics . Finally, as a hard-working student, I spent more than 14 hours on research and study each day.
 
