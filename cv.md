@@ -28,7 +28,7 @@ permalink: /cv/
 
 **Personal Website:** <a href="https://wangshaoyun.github.io">https://wangshaoyun.github.io</a>
 
-#Dducation
+# Education
 
 **Sep. 2016 – Jun. 2019 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; M.S. in Theoretical Physics**
 
