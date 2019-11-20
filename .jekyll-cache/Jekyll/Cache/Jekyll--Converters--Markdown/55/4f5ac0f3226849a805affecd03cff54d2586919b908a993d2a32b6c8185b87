@@ -1,0 +1,60 @@
+I"¾<dl class="wp-caption alignleft" style="width: 420px">
+
+  <dt>
+    <a href=""><img class="" src="/images/1.jpg" alt="Polyelectrolyte brushes under electric field " />
+    </a>
+  </dt>
+
+  <dd>
+    Polyelectrolyte brushes under electric field 
+  </dd>
+
+</dl>
+
+<dl class="wp-caption alignright" style="width: 420px">
+
+  <dt>
+    <a href=""><img class="" src="/images/CC.jpg" alt="Quartz resonator cuts perfectly locate on curves predicted by theory" />
+    </a>
+  </dt>
+
+  <dd>
+    Quartz resonator cuts perfectly locate on curves predicted by theory
+  </dd>
+
+</dl>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<h1 id="welcome">Welcome</h1>
+
+<p>This is the personal website of Shaoyun Wang from Ningbo University, China.</p>
+
+<p>I have conducted my research on two areas from theoretical point:</p>
+
+<ul>
+  <li>
+    <p>The first is molecular simulation of polyelectrolytes (charged polymer). From the aspect of physics, it belongs to the many-body problem which can be described clearly by fundamental physical theory but is very difficult to solve analytically. The best way to solve this problem is using computer, so I mainly focus on using and developing molecular dynamics, Monte Carlo method and numerical method based on field theory.</p>
+  </li>
+  <li>
+    <p>The second is plate theory in mechanics. As we know, the modes of plates is extremely complex so that it incur huge surprice and confusion in Pairs Academy when Chladni exhibited the so-called Chladni Figures in there. My research is analyze the high order modes of plates which can be used in electronic areas, especially the acoustics wave devices.</p>
+  </li>
+</ul>
+
+:ET
