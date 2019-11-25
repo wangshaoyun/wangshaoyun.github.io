@@ -10,9 +10,9 @@ title: Publications
 
 2. Y. Ji, **S. Y. Wang**, C. H. Tong. The Collapse of     Polyelectrolyte Brushes Made of 4-arm Stars Mediated by Trivalent Salt     Ions and an Electric Field, to be submitted. 
 
-3. T. B. Wang, **S. Y.     Wang**, C. H. Tong. Charge Reversal of Polyelectrolyte Brushes Under     a Collapsing Electric Field, to be submitted.
+3. T. B. Wang, **S. Y.     Wang**, C. H. Tong. Charge Reversal of Polyelectrolyte Brushes Under     a Collapsing Electric Field, submitted to *Chinese Journal of Polymer Science*.
 
-4. **S. Y.** **Wang,**     C. H. Tong. Surface Switching of Mixed Polyelectrolyte Brushes Made     of 4-arm Stars and Linear Chains: MD Simulations, *Journal of Applied     Physics*, under review.
+4. **S. Y.** **Wang,**     C. H. Tong. Surface Switching of Mixed Polyelectrolyte Brushes Made     of 4-arm Stars and Linear Chains: MD Simulations, *Journal of Applied Physics*, under review.
 
 5. F. Zhang, **S. Y.** **Wang,** H. T. Ding, C. H. Tong (2019). [Simulations of 3-Arm Polyelectrolyte Star Brushes      under External Electric Fields](https://pubs.rsc.org/en/content/articlelanding/2019/sm/c8sm02131g#!divAbstract), *Soft Matter*, 15, 2560-2570. (Back cover). <a href="2019Soft_Matter.pdf">pdf</a>
 
