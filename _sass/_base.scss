@@ -14,16 +14,15 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
 }
+
 
 
 
@@ -82,7 +81,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: 200;
 }
 
 
@@ -94,17 +93,15 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+   &:visited {
+    /*    color: darken($brand-color, 15%); */
+    } 
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -129,10 +126,10 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: lighten($blue-color-light, 35%);
 }
 
 code {
@@ -141,7 +138,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: auto;
+    overflow-x: scroll;
 
     > code {
         border: 0;
@@ -204,3 +201,33 @@ pre {
         }
     }
 }
+
+/**
+ * Color button 
+ */
+.color-button {
+    background: $blue-color-dark;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px 5px 0 0;
+    cursor: pointer;
+    &:hover {
+        background: $blue-color-light;
+    }
+}
+
+a.tosu {
+color: #b00000;
+background: #f5f5f5;
+text-decoration: none;
+ padding: 2px; 
+ font-weight: 600; 
+font-family: 'Capita', Georgia, serif;
+}
+
+
