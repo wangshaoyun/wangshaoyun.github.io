@@ -1,25 +1,17 @@
-<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <div class="container">
-    <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
-        <div class="header__logo--container">
-          {% include logo.svg %}
-        </div>
-      </a>
-      <nav class="header__links">
-        <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
-            <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
-              <span itemprop="name">{{ item.name }}</span>
+<header class="site-header">
+    <div class="container">
+        <a id="site-header-brand" href="/" title="{{ site.name }}">
+            <span class="octicon octicon-mark-github"></span> {{ site.name }}
+        </a>
+        <nav class="site-header-nav" role="navigation">
+            {% for nav in site.navs %}
+            <a href="{{ nav.href }}"
+               class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
+               target="{{ nav.target | default: _self }}"
+               title="{{ nav.label }}">
+                {{ nav.label }}
             </a>
-          {% endfor %}
-        </div>
-      </nav>
-      <div class="header__toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+            {% endfor %}
+        </nav>
     </div>
-  </div>
 </header>
