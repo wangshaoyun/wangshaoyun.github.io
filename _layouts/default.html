@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+    <body>
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+        <div class="content">
+            {{ content }}
+            {% include mathjax.html %}
+        </div>
 
     {% include footer.html %}
-  </body>
+
+    </body>
 
 </html>

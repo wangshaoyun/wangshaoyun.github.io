@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: All My Blogs
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Take notes about everything new
+menu: blog
+css: ['blog-page.css']
 ---
 
-# Coming in the future...
-
+{% include blog-page.html %}

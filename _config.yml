@@ -1,26 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Shaoyun Wang
-general_email: shaoyunwang88@outlook.com
-academic_email: wangshaoyun88@163.com
+title: I m Shaoyun # ex. I m Chuan
+name: Shaoyun Wang # ex. DONGChuan
+email: shaoyunwang@mail.missouri.edu
+location: Columbia, US # ex. Nice, France
+company: University of Missouri
+company_url: http://cmdl.missouri.edu
+github_url:  https://github.com/wangshaoyun # ex. https://github.com/DONGChuan
+github_username: wangshaoyun # ex. DONGChuan
+description: Shaoyun's website
+favicon: favicon.png # Image must be in assets/images
+repository: wangshaoyun/wangshaoyun.github.io # ex. DONGChuan/DONGChuan.github.io
 
-description: > # this means to ignore newlines until "baseurl:"
-  The universe comprehends me by space and engulfs me like a point; by means of thought, I comprehend it.
+# The base hostname & protocol for your site
+# For local test, please use http://localhost:4000
+# For production, use your github page url. ex. http://dongchuan.github.io
+url: http://localhost:4000
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-
-url: "https://wangshaoyun.github.io" # the base hostname & protocol for your site
-
-# twitter_username: jekyllrb
-github_username: wangshaoyun
-linkedin_username: 
-facebook_username: 
-# feel free to add other links here; you will have to add the SVG icon in _layouts/footer.html
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
 
 # Build settings
 markdown: kramdown
+mathjax: true
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
 
 kramdown:
-  math_engine: mathjax
+  input: GFM
+  enable_coderay: true
 
-# Other options
-permalink: blog/:year/:month/:title
+# Disque
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation. If you do not like these modules, just remove them :D
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /publications
+    label: Publications
+
+  -
+    href: /about
+    label: About
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_programming_keywords: [MATLAB, Fortran, Mathematica, Latex, C, C++, Python]
+skill_Scientific_simulation_keywords: [Lammps, COMSOL, ANASYS, ABAQUS]
+skill_Scientific_drawing_keywords: [Photoshop, Illustrator, Cinema 4D]
+skill_Design_keywords: [Personal website, group website, conference flyer, poster, animation, book and video]
