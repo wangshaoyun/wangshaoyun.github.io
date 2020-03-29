@@ -6,7 +6,7 @@ tags: Guides
 ---
 From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-See <a href="/assets/files/markdown.pdf">markdown</a> guide pdf here.
+See <a href="https://wangshaoyun.github.io/assets/files/markdown.pdf">markdown</a> guide pdf here.
 
 ##### Table of Contents
 [Headers](#headers)
