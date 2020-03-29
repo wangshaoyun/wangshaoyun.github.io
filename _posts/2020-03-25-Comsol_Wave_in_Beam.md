@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Comsol Simulation of Wave Propagation in Beam
-category: java
-tags: [java]
+category: Comsol
+tags: [Comsol]
 ---
 
 # comsol
