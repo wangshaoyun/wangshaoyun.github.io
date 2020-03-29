@@ -5,13 +5,15 @@
     <description>Shaoyun&#39;s website</description>
     <link>https://wangshaoyun.github.io/</link>
     <atom:link href="https://wangshaoyun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Mar 2020 20:42:25 -0500</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2020 20:42:25 -0500</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 00:10:47 -0500</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 00:10:47 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Markdown Cheatsheet</title>
         <description>&lt;p&gt;From &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;adam-p/markdown-here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;assets/files/markdown.pdf&quot;&gt;markdown&lt;/a&gt; guide pdf here.&lt;/p&gt;
 
 &lt;h5 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h5&gt;
 &lt;p&gt;&lt;a href=&quot;#headers&quot;&gt;Headers&lt;/a&gt;&lt;br /&gt;
@@ -452,15 +454,13 @@ alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot;
 &lt;p&gt;License: &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/&quot;&gt;CC-BY&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Mar 2020 00:00:00 -0500</pubDate>
-        <link>https://wangshaoyun.github.io/guides/github/2020/03/28/markdown-cheatsheet.html</link>
-        <guid isPermaLink="true">https://wangshaoyun.github.io/guides/github/2020/03/28/markdown-cheatsheet.html</guid>
-        
-        <category>Github</category>
-        
+        <link>https://wangshaoyun.github.io/guides/2020/03/28/markdown-cheatsheet.html</link>
+        <guid isPermaLink="true">https://wangshaoyun.github.io/guides/2020/03/28/markdown-cheatsheet.html</guid>
         
         <category>Guides</category>
         
-        <category>Github</category>
+        
+        <category>Guides</category>
         
       </item>
     
