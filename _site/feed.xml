@@ -5,9 +5,53 @@
     <description>Shaoyun&#39;s website</description>
     <link>https://wangshaoyun.github.io/</link>
     <atom:link href="https://wangshaoyun.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2020 00:17:35 -0500</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2020 00:17:35 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2020 17:40:30 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2020 17:40:30 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Transformation of elastic constants by Bond&#39;s Matrix</title>
+        <description>&lt;h2 id=&quot;constitutive-relations-of-piezoelectric-material&quot;&gt;Constitutive relations of piezoelectric material&lt;/h2&gt;
+
+&lt;p&gt;​		The constitutive relations of linear anisotropic piezoelectric material are [1]  &lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;T_{ij} = c_{ijkl}^E S_{kl} - e_{kij}E_k,\\
+D_i = e_{ikl}S_{kl} + \varepsilon_{ij}^S E_k,&lt;/script&gt;&lt;br /&gt;
+where $\textbf{T}$ is stress tensor, $\textbf{S}$  is strain tensor, $\textbf{E}$ is electric field, $\textbf{D}$ is electric displacement,  $c_{ijkl}^E$ are elastic constants with independent variables $\textbf{E}$, $e_{kij}$ are piezoelectric constants and $\varepsilon_{ij}^S$ are dielectric constants with independent variables $\textbf{S}$.&lt;/p&gt;
+
+&lt;p&gt;​		The linear constitutive relations can also be expressed as  &lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;S_{ij} = s_{ijkl}^E T_{kl} + d_{kij}E_k,\\
+D_i = d_{ikl}T_{kl} + \varepsilon_{ij}^T E_k,&lt;/script&gt;&lt;br /&gt;
+and  &lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;S_{ij} = s_{ijkl}^D T_{kl} - g_{kij}D_k,\\
+E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_k.&lt;/script&gt;&lt;br /&gt;
+/[&lt;/p&gt;
+
+&lt;p&gt;S_{ij} = s_{ijkl}^D T_{kl} - g_{kij}D_k,\&lt;br /&gt;
+E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_k.&lt;/p&gt;
+
+&lt;p&gt;/]&lt;/p&gt;
+
+&lt;p&gt;hello&lt;/p&gt;
+
+&lt;p&gt;world&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[1] J. S., Yang. &lt;em&gt;An Introduction to the Theory of Piezoelectricity, 2nd&lt;/em&gt; (Switzerland: Springer Nature, 2018).&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
+        <link>https://wangshaoyun.github.io/mechanics/2020/04/04/Transformation_of_elastic_constants.html</link>
+        <guid isPermaLink="true">https://wangshaoyun.github.io/mechanics/2020/04/04/Transformation_of_elastic_constants.html</guid>
+        
+        <category>Mechanics</category>
+        
+        
+        <category>Mechanics</category>
+        
+      </item>
     
       <item>
         <title>Markdown Cheatsheet</title>
