@@ -5,8 +5,8 @@
     <description>Shaoyun&#39;s website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2020 17:52:05 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2020 17:52:05 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2020 19:19:20 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2020 19:19:20 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -42,6 +42,45 @@ S_{ij} = s_{ijkl}^D T_{kl} - g_{kij}D_k,\\
 E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_k.
 $$
 &lt;/div&gt;
+
+&lt;h2 id=&quot;matrix-notation&quot;&gt;Matrix notation&lt;/h2&gt;
+
+&lt;p&gt;We now introduce a compact matrix notation which is more convenient to calculation by the following transformation&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;$ij$ or $kl$&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;11&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;22&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;33&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;23 or 32&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;13 or 31&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;12 or 21&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;$p$ or $q$&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;center&gt;  
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+&lt;/center&gt;
 
 &lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
 

@@ -37,6 +37,29 @@ E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_k.
 $$
 </div>
 
+## Matrix notation
+
+We now introduce a compact matrix notation which is more convenient to calculation by the following transformation  
+
+
+| $ij$ or $kl$ |  11  |  22  |  33  | 23 or 32 | 13 or 31 | 12 or 21 |
+| :----------: | :--: | :--: | :--: | :------: | :------: | :------: |
+|  $p$ or $q$  |  1   |  2   |  3   |    4     |    5     |    6     |
+
+
+
+<center>  
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+</center>  
+
+
+
 ## Reference
 
 > [1] J. S., Yang. *An Introduction to the Theory of Piezoelectricity, 2nd* (Switzerland: Springer Nature, 2018). 
