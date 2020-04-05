@@ -5,31 +5,33 @@
     <description>Shaoyun&#39;s website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2020 19:19:20 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2020 19:19:20 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2020 22:31:57 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2020 22:31:57 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Transformation of elastic constants by Bond&#39;s Matrix</title>
+        <title>Material constants of anisotropic linear piezoelectric material</title>
         <description>&lt;h2 id=&quot;constitutive-relations-of-piezoelectric-material&quot;&gt;Constitutive relations of piezoelectric material&lt;/h2&gt;
 
-&lt;p&gt;​		The constitutive relations of linear anisotropic piezoelectric material are [1]&lt;/p&gt;
+&lt;p&gt;  The constitutive relations of linear anisotropic piezoelectric material are [1]&lt;/p&gt;
 &lt;div class=&quot;text-align-center&quot;&gt;
 
 $$
-T_{ij} = c_{ijkl}^E S_{kl} - e_{kij}E_k,\\
-D_i = e_{ikl}S_{kl} + \varepsilon_{ij}^S E_k,
+T_{ij} = c_{ijkl}^E S_{kl} - e_{kij}E_k,  \\
+D_i = e_{ikl}S_{kl} + \varepsilon_{ij}^S E_j, 
+\tag{1}
 $$
 &lt;/div&gt;
 &lt;p&gt;where $\textbf{T}$ is stress tensor, $\textbf{S}$  is strain tensor, $\textbf{E}$ is electric field, $\textbf{D}$ is electric displacement,  $c_{ijkl}^E$ are elastic constants with independent variables $\textbf{E}$, $e_{kij}$ are piezoelectric constants and $\varepsilon_{ij}^S$ are dielectric constants with independent variables $\textbf{S}$.&lt;/p&gt;
 
-&lt;p&gt;​		The linear constitutive relations can also be expressed as&lt;/p&gt;
+&lt;p&gt;The linear constitutive relations can also be expressed as&lt;/p&gt;
 
 &lt;div class=&quot;text-align-center&quot;&gt;
 
 $$
 S_{ij} = s_{ijkl}^E T_{kl} + d_{kij}E_k,\\
-D_i = d_{ikl}T_{kl} + \varepsilon_{ij}^T E_k,
+D_i = d_{ikl}T_{kl} + \varepsilon_{ij}^T E_j,
+\tag{2}
 $$
 &lt;/div&gt;
 
@@ -39,7 +41,8 @@ $$
 
 $$
 S_{ij} = s_{ijkl}^D T_{kl} - g_{kij}D_k,\\
-E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_k.
+E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_j.
+\tag{3}
 $$
 &lt;/div&gt;
 
@@ -72,21 +75,130 @@ $$
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;center&gt;  
+&lt;p&gt;Thus we have the mapping&lt;/p&gt;
+&lt;center&gt;
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
+$$
+c_{ijkl} \rightarrow c_{pq}, e_{ikl} \rightarrow e_{ip}, T_{ij}\rightarrow T_p,
+\tag{4}
+$$
 &lt;/center&gt;
+
+&lt;p&gt;and the relation between $S_p$ and $S_{pq}$ are&lt;/p&gt;
+&lt;center&gt;
+
+$$
+S_1=S_{11}, S_2=S_{22}, S_{3}=S_{33}, \\
+S_4=S_{23}, S_5=S_{13}, S_{6}=S_{12}. \tag{5}
+$$
+&lt;/center&gt;
+&lt;p&gt;Using Eq. (4) and (5), Eq. (1-3) are transformed to&lt;/p&gt;
+&lt;center&gt;
+
+$$
+T_{p} = c_{pq}^E S_{q} - e_{kp}E_k,  \\
+D_i = e_{iq}S_{q} + \varepsilon_{ij}^S E_j, 
+\tag{6}
+$$
+&lt;/center&gt;
+&lt;center&gt;
+
+$$
+S_{p} = s_{pq}^E T_{q} + d_{kp}E_k,\\
+D_i = d_{iq}T_{q} + \varepsilon_{ij}^T E_j,
+\tag{7}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+S_{p} = s_{pq}^D T_{q} - g_{kp}D_k,\\
+E_i = -g_{iq}T_{q} + \beta_{ij}^T D_j.
+\tag{8}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;The matrices of material constants have the following relations [2]&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+c^E_{pr}s^E_{qr}=\delta_{pq}, \quad \quad \quad \quad  c^D_{pr}s^D_{qr}=\delta_{pq},\\
+\beta_{ik}^S\varepsilon^S_{jk}=\delta_{ij},\quad \quad \quad \quad \beta^T_{ik}\varepsilon^T_{jk}=\delta_{ij},\\
+c^D_{pq} = c^E_{pq}+e_{kp}h_{kq},\quad\quad s^D_{pq}=s^E_{pq}-d_{kp}g_{kq},\\
+\varepsilon^T_{ij}=\varepsilon^S_{ij}+D_{iq}e_{jq},\quad\quad
+\beta^T_{ij}=\beta^S_{ij}-g_{iq}h_{jq},\\
+e_{ip}=d_{iq}c^E_{qp},\quad\quad\quad\quad d_{ip}=\varepsilon^T_{ik}g_{kp},\\
+g_{ip}=\beta^T_{ik}d_{kp},\quad\quad\quad\quad h_{ip}=g_{iq}c^D_{qp}.\\
+\tag{9}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;The values of $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij}$ of different materials can be found in Ref. [1]. If we know matrices $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij},$ we can obtain other matrices by solving Eq. (9).&lt;/p&gt;
+
+&lt;h2 id=&quot;transformation-of-matrices-of-material-constants&quot;&gt;Transformation of matrices of material constants&lt;/h2&gt;
+
+&lt;p&gt;Many piezoelectric materials such as quartz, piezoelectric ceramics et al. are anisotropic material. The structures we often used are plates which are cut from matrices. Due to the anisotropicity, the material constants are different if the structures are cut from the matrices with different rotational angles. To obtain the material constants with different rorational angles from the original coordinate system, we need coordinate transformation.&lt;/p&gt;
+
+&lt;p&gt;For dielectric constants matrix $[\varepsilon^S]$ where we use $[\bullet]$ to represent matrix, the matrix rotated around an axis can be obtained from the following coordinate transformation&lt;/p&gt;
+
+&lt;center&gt;
+
+$$
+[\varepsilon&#39;^{S}]=[a][\varepsilon^S][a]^{-1},
+\tag{10}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;where  $[a]$ is coordinate transformation matrix.&lt;/p&gt;
+
+&lt;p&gt;For elasctic constants matrix $[c^E]$ which is $6\times6$ matrix, we need to use Bond transformation matrix which is developed by W. L. Bond. The transformation is&lt;/p&gt;
+&lt;center&gt;
+
+$$
+[c^{E}]=[M][c^E][M]^{-1},
+\tag{11}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;where $[M]$ is Bond transformation matrix which can be expressed by coordinate matrix $[a]$ [3]&lt;/p&gt;
+&lt;center&gt;
+
+$$
+\begin{bmatrix}
+a_{xx}^2 &amp;amp; a_{xy}^2 &amp;amp; a_{xz}^2 &amp;amp; 2a_{xy}a_{xz} &amp;amp; 2a_{xz}a_{xx} &amp;amp; 2a_{xx}a_{xy}\\
+a_{yx}^2 &amp;amp; a_{yy}^2 &amp;amp; a_{yz}^2 &amp;amp; 2a_{yy}a_{yz} &amp;amp; 2a_{yz}a_{yx} &amp;amp; 2a_{yx}a_{yy}\\
+a_{zx}^2 &amp;amp; a_{zy}^2 &amp;amp; a_{zz}^2 &amp;amp; 2a_{zy}a_{zz} &amp;amp; 2a_{zz}a_{zx} &amp;amp; 2a_{zx}a_{zy}\\
+a_{yx}a_{zx} &amp;amp; a_{yy}a_{zy} &amp;amp; a_{yz}a_{zz} &amp;amp; a_{yy}a_{zz}+a_{yz}a_{zy} &amp;amp; a_{yx}a_{zz}+a_{yz}a_{zx} &amp;amp; a_{yy}a_{zx}+a_{yx}a_{zy} \\
+a_{zx}a_{xx} &amp;amp; a_{zy}a_{xy} &amp;amp; a_{zz}a_{xz} &amp;amp; a_{xy}a_{zz}+a_{xz}a_{zy} &amp;amp; a_{xz}a_{zx}+a_{xx}a_{zz} &amp;amp; a_{xx}a_{zy}+a_{xy}a_{zx} \\
+a_{xx}a_{yx} &amp;amp; a_{xy}a_{yy} &amp;amp; a_{xz}a_{yz} &amp;amp; a_{xy}a_{yz}+a_{xz}a_{yy} &amp;amp; a_{xz}a_{yx}+a_{xx}a_{yz} &amp;amp; a_{xx}a_{yy}+a_{xy}a_{yz} \\
+\end{bmatrix}.
+\tag{12}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;For piezoelectric constants, the transformation is&lt;/p&gt;
+&lt;center&gt;
+
+$$
+[e]=[M][e][a]^{-1},
+\tag{13}
+$$
+&lt;/center&gt;
+
+&lt;p&gt;where $ [M] \; \text{and} \; [a]$ are Bond transformation matrix and coordinate transformation matrix respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;[1] J. S., Yang. &lt;em&gt;An Introduction to the Theory of Piezoelectricity, 2nd&lt;/em&gt; (Switzerland: Springer Nature, 2018).&lt;/p&gt;
+  &lt;p&gt;[1] J. S. Yang. &lt;em&gt;An Introduction to the Theory of Piezoelectricity, 2nd&lt;/em&gt; (Switzerland: Springer Nature, 2018).&lt;/p&gt;
 
+  &lt;p&gt;[2] A. H. Meitzler H. F. Tiersten, A. W. Warner, D. Berlincourt, G. A. Couqin, F. S. Welsh, &lt;em&gt;IEEE Standard on Piezoelectricity&lt;/em&gt; (New York: IEEE , 1988).&lt;/p&gt;
+
+  &lt;p&gt;[3] B. A. Auld. &lt;em&gt;Acoustic Fields and Wave in Solids, Vol. 1&lt;/em&gt; (New York: John Wiley &amp;amp; Sons, 1973).&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 04 Apr 2020 00:00:00 -0500</pubDate>
