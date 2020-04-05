@@ -5,7 +5,7 @@ category: Mechanics
 tags: Mechanics
 ---
 
-## Constitutive relations of piezoelectric material
+## 1. Constitutive relations of piezoelectric material
 
 &emsp;&emsp;The constitutive relations of linear anisotropic piezoelectric material are [1]  
 <div class="text-align-center">
@@ -40,7 +40,7 @@ E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_j.
 $$
 </div>
 
-## Matrix notation
+## 2. Matrix notation
 
 We now introduce a compact matrix notation which is more convenient to calculation by the following transformation  
 
@@ -112,7 +112,7 @@ $$
 
 The values of $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij}$ of different materials can be found in Ref. [1]. If we know matrices $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij},$ we can obtain other matrices by solving Eq. (9). 
 
-## Transformation of matrices of material constants
+## 3. Transformation of matrices of material constants
 
 Many piezoelectric materials such as quartz, piezoelectric ceramics et al. are anisotropic material. The structures we often used are plates which are cut from matrices. Due to the anisotropicity, the material constants are different if the structures are cut from the matrices with different rotational angles. To obtain the material constants with different rorational angles from the original coordinate system, we need coordinate transformation. 
 
@@ -132,7 +132,7 @@ For elasctic constants matrix $[c^E]$ which is $6\times6$ matrix, we need to use
 <center>
 
 $$
-[c^{E}]=[M][c^E][M]^{-1},
+[c'^{E}]=[M][c^E][M]^{-1},
 \tag{11}
 $$
 </center>
@@ -157,7 +157,7 @@ For piezoelectric constants, the transformation is
 <center>
 
 $$
-[e]=[M][e][a]^{-1},
+[e']=[M][e][a]^{-1},
 \tag{13}
 $$
 </center>
@@ -165,7 +165,7 @@ $$
 where $ [M] \; \text{and} \; [a]$ are Bond transformation matrix and coordinate transformation matrix respectively.
 
 
-## Reference
+## 4. Reference
 
 > [1] J. S. Yang. *An Introduction to the Theory of Piezoelectricity, 2nd* (Switzerland: Springer Nature, 2018). 
 >
