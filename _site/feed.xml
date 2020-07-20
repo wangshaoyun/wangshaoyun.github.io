@@ -5,13 +5,13 @@
     <description>Shaoyun&#39;s website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2020 22:31:57 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2020 22:31:57 -0500</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2020 23:50:45 -0500</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2020 23:50:45 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Material constants of anisotropic linear piezoelectric material</title>
-        <description>&lt;h2 id=&quot;constitutive-relations-of-piezoelectric-material&quot;&gt;Constitutive relations of piezoelectric material&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;constitutive-relations-of-piezoelectric-material&quot;&gt;1. Constitutive relations of piezoelectric material&lt;/h2&gt;
 
 &lt;p&gt;  The constitutive relations of linear anisotropic piezoelectric material are [1]&lt;/p&gt;
 &lt;div class=&quot;text-align-center&quot;&gt;
@@ -46,7 +46,7 @@ E_i = -g_{ikl}D_{kl} + \beta_{ij}^T D_j.
 $$
 &lt;/div&gt;
 
-&lt;h2 id=&quot;matrix-notation&quot;&gt;Matrix notation&lt;/h2&gt;
+&lt;h2 id=&quot;matrix-notation&quot;&gt;2. Matrix notation&lt;/h2&gt;
 
 &lt;p&gt;We now introduce a compact matrix notation which is more convenient to calculation by the following transformation&lt;/p&gt;
 
@@ -139,7 +139,7 @@ $$
 
 &lt;p&gt;The values of $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij}$ of different materials can be found in Ref. [1]. If we know matrices $c^E_{pq}, e_{kp} \; \text{and} \; \varepsilon^S_{ij},$ we can obtain other matrices by solving Eq. (9).&lt;/p&gt;
 
-&lt;h2 id=&quot;transformation-of-matrices-of-material-constants&quot;&gt;Transformation of matrices of material constants&lt;/h2&gt;
+&lt;h2 id=&quot;transformation-of-matrices-of-material-constants&quot;&gt;3. Transformation of matrices of material constants&lt;/h2&gt;
 
 &lt;p&gt;Many piezoelectric materials such as quartz, piezoelectric ceramics et al. are anisotropic material. The structures we often used are plates which are cut from matrices. Due to the anisotropicity, the material constants are different if the structures are cut from the matrices with different rotational angles. To obtain the material constants with different rorational angles from the original coordinate system, we need coordinate transformation.&lt;/p&gt;
 
@@ -159,7 +159,7 @@ $$
 &lt;center&gt;
 
 $$
-[c^{E}]=[M][c^E][M]^{-1},
+[c&#39;^{E}]=[M][c^E][M]^{-1},
 \tag{11}
 $$
 &lt;/center&gt;
@@ -184,14 +184,20 @@ $$
 &lt;center&gt;
 
 $$
-[e]=[M][e][a]^{-1},
+[e&#39;]=[M][e][a]^{-1},
 \tag{13}
 $$
 &lt;/center&gt;
 
 &lt;p&gt;where $ [M] \; \text{and} \; [a]$ are Bond transformation matrix and coordinate transformation matrix respectively.&lt;/p&gt;
 
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;\begin{equation}&lt;/p&gt;
+
+&lt;p&gt;\alpha&lt;/p&gt;
+
+&lt;p&gt;\end{equation}&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;4. Reference&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;[1] J. S. Yang. &lt;em&gt;An Introduction to the Theory of Piezoelectricity, 2nd&lt;/em&gt; (Switzerland: Springer Nature, 2018).&lt;/p&gt;

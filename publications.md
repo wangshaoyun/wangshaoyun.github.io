@@ -6,10 +6,11 @@ menu: publications
 ---
 
 ## 2020
-1. **S. Y. Wang**, C. H. Tong. [Cell-lists Method for Monte Carlo Simulation](https://arxiv.org/abs/2003.05581), arXiv:2003.05581. <a href="/assets/files/2003.05581.pdf">pdf</a>
-2. T. B. Wang, **S. Y. Wang**, C. H. Tong. Charge Reversal of Polyelectrolyte Brushes Under a Collapsing Electric Field, submitted to *Chemical Physics* under review.
-3. **S. Y. Wang,** C. H. Tong (2020). [Surface Switching of Mixed Polyelectrolyte Brushes Made     of 4-arm Stars and Linear Chains: MD Simulations](https://aip.scitation.org/doi/10.1063/1.5130643), *Journal of Applied Physics*, 127, 074301. Editor's pick. <a href="/assets/files/2020JAP.pdf">pdf</a>
-4. Ji Wang, **Shaoyun Wang**, Longtao Xie, Yangyang Zhang, Lili Yuan, Jianke Du, Han Zhang (2020). [The axisymmetric Rayleigh waves in a semi-infinite elastic solid](http://dx.doi.org/10.1016/j.taml.2020.01.018), *Theoretical & Applied Mechanics Letters*, 10 (2020) 000-4. <a href="/assets/files/2020TAML.pdf">pdf</a>
+1. Longtao Xie, **Shaoyun Wang**, Junlei Ding, J Ranjan Banerjee, Ji Wang (2020), [An accurate beam theory and its first-order approximation in free vibration analysis](https://www.sciencedirect.com/science/article/pii/S0022460X20303990?via%3Dihub), *Journal of Sound and Vibration*, 485, 115567. <a href="/assets/files/2020JSV.pdf">pdf</a>.
+2. **S. Y. Wang**, C. H. Tong. [Cell-lists Method for Monte Carlo Simulation](https://arxiv.org/abs/2003.05581), arXiv:2003.05581. <a href="/assets/files/2003.05581.pdf">pdf</a>
+3. T. B. Wang, **S. Y. Wang**, C. H. Tong. [ Charge Reversal of Polyelectrolyte Brushes Under a Collapsing Electric Field](https://doi.org/10.1016/j.chemphys.2020.110810), *Chemical Physics* *Chemical Physics*, 536, 110810. <a href="/assets/files/2020Chemical_Physics.pdf">pdf</a>
+4. **S. Y. Wang,** C. H. Tong (2020). [Surface Switching of Mixed Polyelectrolyte Brushes Made of 4-arm Stars and Linear Chains: MD Simulations](https://aip.scitation.org/doi/10.1063/1.5130643), *Journal of Applied Physics*, 127, 074301. Editor's pick. <a href="/assets/files/2020JAP.pdf">pdf</a>
+5. Ji Wang, **Shaoyun Wang**, Longtao Xie, Yangyang Zhang, Lili Yuan, Jianke Du, Han Zhang (2020). [The axisymmetric Rayleigh waves in a semi-infinite elastic solid](http://dx.doi.org/10.1016/j.taml.2020.01.018), *Theoretical & Applied Mechanics Letters*, 10 (2020) 000-4. <a href="/assets/files/2020TAML.pdf">pdf</a>
 
 ## 2019
 
