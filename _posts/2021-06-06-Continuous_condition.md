@@ -3,13 +3,15 @@ layout: post
 title: Contiunuous condition
 category: Mechanics
 tags: Mechanics
+
 ---
 
 [TOC]
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.52.png" alt="Screen Shot 2021-06-06 at 01.02.52" style="zoom:10%;" />  | <img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.42.png" alt="Screen Shot 2021-06-06 at 01.02.42" style="zoom:10%;" />
 
-<img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.52.png" alt="Screen Shot 2021-06-06 at 01.02.52" style="zoom:10%;" />
 
-<img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.42.png" alt="Screen Shot 2021-06-06 at 01.02.42" style="zoom:10%;" />
 
 Assume the interface $S$ is $z=0$. 
 
@@ -41,6 +43,8 @@ $$
 \sigma_{ij}^1 n_j - \sigma_{ij}^2 n_j = \sigma_{ij,j}^1 - \sigma_{ij,j}^2 = \rho_1 \ddot{u}_i-\rho_2 \ddot u_i=0
 $$
 Therefore, $\sigma_{33}, \sigma_{13}, \sigma_{23}$ are continuous. 
+
+
 
 ## Strain
 
@@ -75,4 +79,6 @@ Therefore, $\varepsilon_{11}, \varepsilon_{22}, \varepsilon_{1 2}$ are continuou
 | Displacements |                      $u_1,u_2,u_3$                      |                  /                   |             /             |
 |    Stress     |         $\sigma_{33}, \sigma_{13}, \sigma_{23}$         |            $\sigma_{12}$             | $\sigma_{22},\sigma_{33}$ |
 |    Strain     | $\varepsilon_{11}, \varepsilon_{22}, \varepsilon_{1 2}$ | $\varepsilon_{13}, \varepsilon_{23}$ |    $ \varepsilon_{33}$    |
+
+
 
