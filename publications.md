@@ -5,7 +5,23 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; Shaoyun's 
 menu: publications
 ---
 
+## 2024
+
+1. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., \& Prodan, E. (2024). Topological spectral bands with frieze groups. Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
+2. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... \& Lin, J. (2024). Programmed multimaterial assembly by synergized 3D printing and freeform laser induction. Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
+
+## 2023
+
+1. **Wang, S.**, Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., \& Huang, G. (2023). Smart patterning for topological pumping of elastic surface waves. Science Advances, 9(30), eadh4310. <a href="/assets/files/2023SciAdv.pdf">pdf</a>.
+2. Wu, Q., Xu, X., Qian, H., **Wang, S.**, Zhu, R., Yan, Z., ... \& Huang, G. (2023). Active metamaterials for realizing odd mass density. Proceedings of the National Academy of Sciences, 120(21), e2209829120. <a href="/assets/files/2023PNAS.pdf">pdf</a>.
+3. Wu, Y., Su, C., **Wang, S.**, Zheng, B., Mahjoubnia, A., Sattari, K., ... & Lin, J. (2023). A photocured bio-based shape memory thermoplastics for reversible wet adhesion. *Chemical Engineering Journal*, *470*, 144226. <a href="/assets/files/2023CEJ.pdf">pdf</a>.
+
+## 2022
+
+1. Chen, H., **Wang, S.**, Li, X., \& Huang, G. (2022). Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation. International Journal of Solids and Structures, 254, 111891. <a href="/assets/files/2022IJSS.pdf">pdf</a>.
+
 ## 2020
+
 1. Longtao Xie, **Shaoyun Wang**, Junlei Ding, J Ranjan Banerjee, Ji Wang (2020), [An accurate beam theory and its first-order approximation in free vibration analysis](https://www.sciencedirect.com/science/article/pii/S0022460X20303990?via%3Dihub), *Journal of Sound and Vibration*, 485, 115567. <a href="/assets/files/2020JSV.pdf">pdf</a>.
 2. **S. Y. Wang**, C. H. Tong. [Cell-lists Method for Monte Carlo Simulation](https://arxiv.org/abs/2003.05581), arXiv:2003.05581. <a href="/assets/files/2003.05581.pdf">pdf</a>
 3. T. B. Wang, **S. Y. Wang**, C. H. Tong. [ Charge Reversal of Polyelectrolyte Brushes Under a Collapsing Electric Field](https://doi.org/10.1016/j.chemphys.2020.110810), *Chemical Physics* *Chemical Physics*, 536, 110810. <a href="/assets/files/2020Chemical_Physics.pdf">pdf</a>
@@ -40,5 +56,4 @@ menu: publications
 ## 2015
 
 1. **S. Y. Wang**, B. Neubig, K. Sato,     T. Hosoda, E. Seydel, J. H. Wu, T. F. Ma, J. Wang (2016). [Aging Models and Parameters of Quartz Crystal      Resonators and Oscillators](https://ieeexplore.ieee.org/document/7364512/), *Proceedings of the 2015 Symposium on     Piezoelectricity, Acoustic Waves and Device Applications*, pp. 382-385. <a href="/assets/files/2015SPAWADA.pdf">pdf</a>
-
 
