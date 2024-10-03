@@ -7,8 +7,11 @@ menu: publications
 
 ## 2024
 
-1. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., \& Prodan, E. (2024). Topological spectral bands with frieze groups. Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
-2. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... \& Lin, J. (2024). Programmed multimaterial assembly by synergized 3D printing and freeform laser induction. Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
+1. Zhao, G., Chen, Z., Wang, S., Chen, S., Zhang, F., Andrabi, S. M., ... & Yan, Z. (2024). Sustainable Nanofibril Interfaces for Strain‐Resilient and Multimodal Porous Bioelectronics. *Advanced Materials*, 2411587. <a href="/assets/files/2024AM.pdf">pdf</a>.
+2. Wu, Y., Qiu, C., Silva, K. J., Shin, J., Wang, S., Zheng, B., ... & Lin, J. (2024). Manipulate dynamic chemical interactions in renewable polymers for 3D printing tunable, healable, and recyclable metamaterials. *Chemical Engineering Journal*, 156138. <a href="/assets/files/2024CEJ.pdf">pdf</a>.
+3. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., \& Prodan, E. (2024). Topological spectral bands with frieze groups. Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
+4. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... \& Lin, J. (2024). Programmed multimaterial assembly by synergized 3D printing and freeform laser induction. Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
+5. 
 
 ## 2023
 
