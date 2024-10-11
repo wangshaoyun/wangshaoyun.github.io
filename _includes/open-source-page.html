@@ -17,10 +17,10 @@
             <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
             <div class="col-md-4 card text-center">
                 <div class="thumbnail">
-                    <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
+                    <div class="card-image geopattern" data-pattern-id=" repo name ">
                         <div class="card-image-cell">
                             <h3 class="card-title">
-                                <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+                                <a href="" target="_blank">repo name</a>
                             </h3>
                         </div>
                     </div>
@@ -29,9 +29,9 @@
                             <p class="card-text">repo description</p>
                         </div>
                         <div class="card-text">
-                            <span data-toggle="tooltip" class="meta-info" title="Last updated：{{ repo.updated_at }}">
+                            <span data-toggle="tooltip" class="meta-info" title="Last updated：repo updated_at">
                                 <span class="octicon octicon-clock"></span>
-                                <time datetime="{{ repo.updated_at }}" title="{{ repo.updated_at }}">repo updated_at {{  | date: '%Y-%m-%d' }}</time>
+                                <time datetime="repo updated_at" title="repo updated_at">{{repo updated_at|date: '%Y-%m-%d'}}</time>
                             </span>
                         </div>
                     </div>
@@ -40,10 +40,10 @@
 
             <div class="col-md-4 card text-center">
                 <div class="thumbnail">
-                    <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
+                    <div class="card-image geopattern" data-pattern-id="repo name">
                         <div class="card-image-cell">
                             <h3 class="card-title">
-                                <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+                                <a href=" " target="_blank">repo name</a>
                             </h3>
                         </div>
                     </div>
@@ -52,10 +52,9 @@
                             <p class="card-text">repo description</p>
                         </div>
                         <div class="card-text">
-                            <span data-toggle="tooltip" class="meta-info" title="Last updated：{{ repo.updated_at }}">
+                            <span data-toggle="tooltip" class="meta-info" title="Last updated：repo updated_at">
                                 <span class="octicon octicon-clock"></span>
-                                <time datetime="{{ repo.updated_at }}" title="{{ repo.updated_at }}">repo updated_at {{ | date:
-                                    '%Y-%m-%d' }}</time>
+                                <time datetime="repo updated_at" title="repo updated_at">{{repo updated_at|date: '%Y-%m-%d'}}</time>
                             </span>
                         </div>
                     </div>
@@ -69,9 +68,6 @@
 </div>
 <script>
     $(document).ready(function(){
-
-        // Enable bootstrap tooltip
-        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 
         $('.geopattern').each(function(){
             $(this).geopattern($(this).data('pattern-id'));
