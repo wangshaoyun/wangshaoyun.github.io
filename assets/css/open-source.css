@@ -13,10 +13,18 @@
 
 .card-image {
     display: flex;
-    height: 300px;
+    height: 300px; /* 设置固定高度 */
     width: 100%;
     overflow-x: hidden;
     border-radius: 4px;
+}
+
+/* 确保图片适应卡片大小，不超出边界 */
+.card-image img {
+    width: 100%; /* 图片宽度适应卡片 */
+    height: 100%; /* 图片高度适应卡片 */
+    object-fit: cover; /* 保持图片比例并裁剪超出的部分 */
+    border-radius: 4px 4px 0 0; /* 图片顶部的圆角与卡片一致 */
 }
 
 .card-image .card-image-cell {
