@@ -1,139 +1,207 @@
-# Yummy Jekyll Theme
+<div align="center">
+  <br>
 
-A Simple, Bootstrap Based Theme. Especially for developers who like to show their projects on website and like to take notes. There are also some magical features to discover. 
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
+  </a>
 
-## [Live Demo](http://dongchuan.github.io/)
+  <h1>JEKYLL YAT THEME</h1>
 
-Open issues if you find bugs or even have trouble installing jekyll or dependencies. :D
+</div>
 
-Or contact: dongchuan55@gmail.com
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
 
-> Strongly suggest to fork and change project name to create your GitHub Pages instead of downloading it directly. Because in the future, I will develop many funny modules like 'footprint' to show your world wide trip. Could be easier to merge new features in the future.
+<p align="center">
+  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
+      alt="Github Pages" />
+  </a>
 
-## Notable Features
+  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
+      alt="Gem Version" />
+  </a>
 
-* Compatible with Jekyll 3.x and GitHub Pages
-* Based on Bootstrap
-* [Github Module](http://dongchuan.github.io/open-source) to show your popular projects in a single page and on sidebar automatically. (Datas are retreived by github metadata instead of by api calls, so no delay) 
-* [Post Module](http://dongchuan.github.io/blog) to show all your posts with timeline
-* [Bookmark Module](http://dongchuan.github.io/bookmark) to establish a quick mark about all libs/tools/books you like to use.
-* [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html) to generat a quick directory of your post by titles/subtitles automatically.
-* Support [Disqus Comment](https://disqus.com/home/explore/)
-* Support [Google Analytics](https://analytics.google.com/analytics/web/)
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+      alt="License: MIT" />
+  </a>
 
-Features in future:
-* A Footprint module to show all your travel around the world
-* Feature to share. (Facebook, twitter, evernote and so on)
-* (Not sure) A embeded todo list. (Not sure) to travel, to complete, to do for your parents, etc. To do in life!
-* Creative ideas to discuss with you :P
+  <a href="https://liberapay.com/jeffreytse">
+    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
+      alt="Donate (Liberapay)" />
+  </a>
 
-## Install and setup
+  <a href="https://patreon.com/jeffreytse">
+    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
+      alt="Donate (Patreon)" />
+  </a>
 
-Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bundler.io/) on your local to install dependencies.
+  <a href="https://ko-fi.com/jeffreytse">
+  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+  alt="Donate (Ko-fi)" />
+  </a>
+</p>
 
-1. Fork code and clone
-2. Run `bower install` to install all dependencies in [bower.json](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/bower.json)
-3. Run `bundle install` to install all dependencies in [Gemfile](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/Gemfile)
-4. Update `_config.yml` with your own settings.
-5. Add posts in `/_posts`
-6. Commit to your own Username.github.io repository.
-7. Then come back to star this theme!
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://jeffreytse.net">jeffreytse</a> and
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
+  </sub>
+</div>
 
-> When install dependencies by bundler or gem, you may have some errors depending on your environment.
+<br>
 
-> Error about `json`. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
-  
-> Error about `jekyll-paginate`. Please check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
+Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
+_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
+clear, clean and neat for writers and posts. **If you are an elegant
+writer and focus on content, don't miss it.**
 
-> Error about `SSL_connect`. Please check [here](http://stackoverflow.com/questions/15305350/gem-install-fails-with-openssl-failure) and [here](http://railsapps.github.io/openssl-certificate-verify-failed.html)
+<p align="center">
+Like this elegant theme? You can give it a star or sponsor me!<br>
+I will respect your crucial support and say THANK YOU!
+</p>
 
-> For the moment, when you test on your local, you need to keep internet connection. Bug will be fixed soon.
+<p align="center">
 
-## How to use
+  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
 
-#### Create a new post
+</p>
 
-Create a `.md` file inside `_posts` folder.
+<h4 align="center">BANNER</h4>
 
-Name the file according to the standard jekyll format.
+<p align="center">
 
+  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
+
+</p>
+
+## Features
+
+- Support beautiful **Night Mode**.
+- Modern responsive web design.
+- Full layouts `home`, `post`, `tags`, `archive` and `about`.
+- Uses font awesome 5 for icons.
+- Beautiful page banner with image and video.
+- Beautiful Syntax Highlight using [highlight.js][highlight-js].
+- Beautiful image gallery previewer using [PhotoSwipe 5][photoswipe-5].
+- RSS support using [Jekyll Feed][jekyll-feed] gem.
+- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
+- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
+- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Google Translation support.
+- New post tag support.
+- Pin post tag support.
+
+Also, visit the [Live Demo][yat-live-demo] site for the theme.
+
+## Installation
+
+There are three ways to install:
+
+- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
+- Forking/directly copying all of the theme files into your project.
+
+### Gem-based Theme Method
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-yat"
 ```
-2016-01-19-i-love-yummy.md
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-theme-yat
 ```
 
-Write the Front Matter and content in the file.
+And then execute:
 
-```
----
-layout: post
-title: Post title
-category: Category
-tags: [tag1, tag2]
----
+```bash
+$ bundle
 ```
 
-Please find examples [here](https://github.com/DONGChuan/DONGChuan.github.io/tree/master/_posts)
+Or install it yourself as:
 
-> Jekyll supports different structure of repository. You could just create as many folders as you want under _posts. Then jekyll will look through all folders/subfolders to find your posts. So cool, right? :D
-
-#### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
-
-When writing post, please always follow this format:
-
-```
-Description about this post, blablabla
-
-## Title A
-
-### Title A-1
-
-### Title A-2
-
-## Title B
-
-### Title B-1
-
+```bash
+$ gem install jekyll-theme-yat
 ```
 
-So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
+### Remote Theme Method with GitHub Pages
 
-For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
+Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
 
-But if you do not like it or your post is quite short. You want to hide this navigation to make your post occupy your full screen. You just need to set **no-post-nav:true** in the Front Matter of the post where you want to hide this feature :D
+To install:
 
-#### [Github Module](http://dongchuan.github.io/open-source)
+Add this line to your Jekyll site's `Gemfile`:
 
-This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
-In the future, it will also show the repositories you contributed a lot and the ones of your organization.
+```ruby
+gem "github-pages", group: :jekyll_plugins
+```
 
-#### [Bookmark Module](http://dongchuan.github.io/bookmark)
+And add this line to your Jekyll site's `_config.yml`:
 
-To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
+```yaml
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
+```
 
-#### [Customize About Page](http://dongchuan.github.io/about)
+And then execute:
 
-Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/about.md) and [about.html](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/_includes/about.html)
+```bash
+$ bundle
+```
 
-## ToDo
+### Forking/Cloning the project
 
-- [ ] List posts by a specified tag
-- [ ] New module FootPrint to show your world around trips
-- [ ] Show projects from your orgnization on github. (Siderbar, in open-source page)
-- [ ] To fix bug - could only test on local with internet connected.
+You need to update the option of github workflow file `.github/workflows/build-jekyll.yml`, especially to ensure the value of `jekyll_baseurl` is correct.
 
-## Contributor
+### GitHub Pages without limitation
 
-* [DONGChuan](https://github.com/DONGChuan)
-* [Mojtaba Koosej](https://github.com/mkoosej)
-* [shahsaurabh0605](https://github.com/shahsaurabh0605)
-* [Z-Beatles](http://www.waynechu.cn/)
-* [LM450N](https://github.com/LM450N)
-* [XhmikosR](https://github.com/XhmikosR)
+GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
+
+To use the third-party gem in GitHub Pages without limitation:
+
+Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
+
+## Usage
+
+Add or update your available layouts, includes, sass and/or assets.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
+
+## Contributing
+
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+
+You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
 
 ## License
 
-The Apache License 2.0
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
 
-Copyright (c) 2016 DONG Chuan
+<!-- External links -->
 
-Check [LICENSE](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/LICENSE) file and [official website](http://www.apache.org/licenses/LICENSE-2.0) for details
+[jekyll]: https://jekyllrb.com/
+[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
+[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[highlight-js]: https://github.com/highlightjs/highlight.js
+[photoswipe-5]: https://photoswipe.com/
