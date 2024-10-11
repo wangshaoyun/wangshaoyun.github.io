@@ -1,6 +1,19 @@
+/* 容器设置为flexbox布局 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* 允许换行 */
+    justify-content: space-between; /* 在两张卡片之间留有间隙 */
+}
+
+/* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
+.card {
+    width: 48%; /* 留出间隙 */
+    margin-bottom: 20px; /* 底部留出空间，避免卡片之间重叠 */
+}
+
 .card-image {
     display: flex;
-    height: 180px;
+    height: 120px;
     width: 100%;
     overflow-x: hidden;
     border-radius: 4px;
