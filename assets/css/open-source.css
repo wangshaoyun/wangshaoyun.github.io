@@ -13,7 +13,7 @@
 
 .card-image {
     display: flex;
-    height: 300px; /* 设置固定高度 */
+    height: auto; /* 设置固定高度 */
     width: 100%;
     overflow-x: hidden;
     border-radius: 4px;
