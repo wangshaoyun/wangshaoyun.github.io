@@ -1,51 +1,64 @@
-<h3 class="sidebar-title">My Popular Repositories</h3>
-{% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse | where: "fork", "false"
-%}
-{% for repo in sorted_repos | limit: site.side_bar_repo_limit %}
-<div class="card text-center">
-    <div class="thumbnail">
-        <!-- 手动添加图片，替换 geopattern -->
-        <div class="card-image">
-            <!-- 如果你有特定的图片对应不同的 repo，可以使用条件判断来选择不同的图片 -->
-            {% if forloop.index == 1 %}
-            <img src="https://raw.github.com/wangshaoyun/image/master/202210061436117.jpeg" alt="Repo Image 1"
-                style="width: 100%; border-radius: 4px 4px 0 0;">
-            {% elsif forloop.index == 2 %}
-            <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Repo Image 2"
-                style="width: 100%; border-radius: 4px 4px 0 0;">
-            {% else %}
-            <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Default Repo Image"
-                style="width: 100%; border-radius: 4px 4px 0 0;">
-            {% endif %}
-        </div>
-        <div class="caption">
-            <h3 class="card-title">
-                <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
-            </h3>
-            <div class="card-description">
-                <p class="card-text">{{ repo.description }}</p>
+<h3 class="sidebar-title">My Popular Projects</h3>
+
+<div class="repo-list row">
+    <!-- 卡片 1 -->
+    <div class="col-md-4 card text-center">
+        <div class="thumbnail">
+            <!-- 手动添加图片 -->
+            <div class="card-image">
+                <img src="https://raw.github.com/wangshaoyun/image/master/202210061436117.jpeg" alt="Card Image 1"
+                    style="width: 100%; border-radius: 4px 4px 0 0;">
             </div>
-            <div class="card-text">
-                <span data-toggle="tooltip" class="meta-info" title="{{ repo.stargazers_count }} stars">
-                    <span class="octicon octicon-star"></span> {{ repo.stargazers_count }}
-                </span>
-                <span data-toggle="tooltip" class="meta-info" title="{{ repo.forks_count }} forks">
-                    <span class="octicon octicon-git-branch"></span> {{ repo.forks_count }}
-                </span>
-                <span data-toggle="tooltip" class="meta-info" title="Last updated：{{ repo.updated_at }}">
-                    <span class="octicon octicon-clock"></span>
-                    <time datetime="{{ repo.updated_at }}" title="{{ repo.updated_at }}">{{ repo.updated_at | date:
-                        '%Y-%m-%d' }}</time>
-                </span>
+            <div class="caption">
+                <h3 class="card-title">Project Name 1</h3>
+                <div class="card-description">
+                    <p class="card-text">This is a description for the first project. It provides information about the
+                        content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 卡片 2 -->
+    <div class="col-md-4 card text-center">
+        <div class="thumbnail">
+            <!-- 手动添加图片 -->
+            <div class="card-image">
+                <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Card Image 2"
+                    style="width: 100%; border-radius: 4px 4px 0 0;">
+            </div>
+            <div class="caption">
+                <h3 class="card-title">Project Name 2</h3>
+                <div class="card-description">
+                    <p class="card-text">This is a description for the second project. It provides information about the
+                        content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 卡片 3 -->
+    <div class="col-md-4 card text-center">
+        <div class="thumbnail">
+            <!-- 手动添加图片 -->
+            <div class="card-image">
+                <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Card Image 3"
+                    style="width: 100%; border-radius: 4px 4px 0 0;">
+            </div>
+            <div class="caption">
+                <h3 class="card-title">Project Name 3</h3>
+                <div class="card-description">
+                    <p class="card-text">This is a description for the third project. It provides information about the
+                        content.</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-{% endfor %}
 
 <script>
     $(document).ready(function () {
-        // Enable bootstrap tooltip
+        // Enable bootstrap tooltip (if needed)
         $("body").tooltip({ selector: '[data-toggle=tooltip]' });
     });
 </script>
