@@ -18,8 +18,8 @@
 
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
 .card {
-    width: 65%; /* 留出间隙 */
-    margin-bottom: 20px; /* 底部留出空间，避免卡片之间重叠 */
+    width: 48%; /* 留出间隙 */
+    margin-bottom: auto; /* 底部留出空间，避免卡片之间重叠 */
     display: flex;
     flex-direction: column; /* 让内容垂直排列 */
 }
