@@ -41,8 +41,9 @@
 }
 
 .card-description {
-    height: 3em;
-    overflow: hidden;
+    flex-grow: 1; /* 占据剩余空间 */
+    padding: 3px; /* 添加一些内边距 */
+    overflow: visible; /* 确保内容不被隐藏 */
 }
 
 /*.jumbotron h1, .jumbotron .meta-info {
@@ -71,5 +72,5 @@
 }
 
 .card-text .meta-info {
-    margin-right: 10px;
+    margin-right: 2px;
 }
