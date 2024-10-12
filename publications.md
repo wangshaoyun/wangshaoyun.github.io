@@ -7,21 +7,21 @@ menu: publications
 
 ## 2024
 
-1. Zhao, G., Chen, Z., Wang, S., Chen, S., Zhang, F., Andrabi, S. M., ... & Yan, Z. (2024). Sustainable Nanofibril Interfaces for Strain‐Resilient and Multimodal Porous Bioelectronics. *Advanced Materials*, 2411587. <a href="/assets/files/2024AM.pdf">pdf</a>.
-2. Wu, Y., Qiu, C., Silva, K. J., Shin, J., Wang, S., Zheng, B., ... & Lin, J. (2024). Manipulate dynamic chemical interactions in renewable polymers for 3D printing tunable, healable, and recyclable metamaterials. *Chemical Engineering Journal*, 156138. <a href="/assets/files/2024CEJ.pdf">pdf</a>.
-3. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., \& Prodan, E. (2024). Topological spectral bands with frieze groups. Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
-4. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... \& Lin, J. (2024). Programmed multimaterial assembly by synergized 3D printing and freeform laser induction. Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
+1. Zhao, G., Chen, Z., Wang, S., Chen, S., Zhang, F., Andrabi, S. M., ... & Yan, Z. (2024). [Sustainable Nanofibril Interfaces for Strain‐Resilient and Multimodal Porous Bioelectronics](https://doi.org/10.1002/adma.202411587). *Advanced Materials*, 2411587. <a href="/assets/files/2024AM.pdf">pdf</a>.
+2. Wu, Y., Qiu, C., Silva, K. J., Shin, J., Wang, S., Zheng, B., ... & Lin, J. (2024). [Manipulate dynamic chemical interactions in renewable polymers for 3D printing tunable, healable, and recyclable metamaterials](https://doi.org/10.1016/j.cej.2024.156138). *Chemical Engineering Journal*, 156138. <a href="/assets/files/2024CEJ.pdf">pdf</a>.
+3. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., & Prodan, E. (2024). [Topological spectral bands with frieze groups](https://doi.org/10.1063/5.0127973). Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
+4. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... & Lin, J. (2024). [Programmed multimaterial assembly by synergized 3D printing and freeform laser induction](https://doi.org/10.1038/s41467-024-48919-5). Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
 5. 
 
 ## 2023
 
-1. **Wang, S.**, Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., \& Huang, G. (2023). Smart patterning for topological pumping of elastic surface waves. Science Advances, 9(30), eadh4310. <a href="/assets/files/2023SciAdv.pdf">pdf</a>.
-2. Wu, Q., Xu, X., Qian, H., **Wang, S.**, Zhu, R., Yan, Z., ... \& Huang, G. (2023). Active metamaterials for realizing odd mass density. Proceedings of the National Academy of Sciences, 120(21), e2209829120. <a href="/assets/files/2023PNAS.pdf">pdf</a>.
-3. Wu, Y., Su, C., **Wang, S.**, Zheng, B., Mahjoubnia, A., Sattari, K., ... & Lin, J. (2023). A photocured bio-based shape memory thermoplastics for reversible wet adhesion. *Chemical Engineering Journal*, *470*, 144226. <a href="/assets/files/2023CEJ.pdf">pdf</a>.
+1. **Wang, S.**, Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., \& Huang, G. (2023). [Smart patterning for topological pumping of elastic surface waves](https://www.science.org/doi/10.1126/sciadv.adh4310). Science Advances, 9(30), eadh4310. <a href="/assets/files/2023SciAdv.pdf">pdf</a>.
+2. Wu, Q., Xu, X., Qian, H., **Wang, S.**, Zhu, R., Yan, Z., ... \& Huang, G. (2023). [Active metamaterials for realizing odd mass density](https://doi.org/10.1073/pnas.2209829120). Proceedings of the National Academy of Sciences, 120(21), e2209829120. <a href="/assets/files/2023PNAS.pdf">pdf</a>.
+3. Wu, Y., Su, C., **Wang, S.**, Zheng, B., Mahjoubnia, A., Sattari, K., ... & Lin, J. (2023). [A photocured bio-based shape memory thermoplastics for reversible wet adhesion](https://doi.org/10.1016/j.cej.2023.144226). *Chemical Engineering Journal*, *470*, 144226. <a href="/assets/files/2023CEJ.pdf">pdf</a>.
 
 ## 2022
 
-1. Chen, H., **Wang, S.**, Li, X., \& Huang, G. (2022). Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation. International Journal of Solids and Structures, 254, 111891. <a href="/assets/files/2022IJSS.pdf">pdf</a>.
+1. Chen, H., **Wang, S.**, Li, X., \& Huang, G. (2022). [Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation](https://doi.org/10.1016/j.ijsolstr.2022.111891). International Journal of Solids and Structures, 254, 111891. <a href="/assets/files/2022IJSS.pdf">pdf</a>.
 
 ## 2020
 
