@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap; /* 允许换行 */
     justify-content: space-between; /* 在两张卡片之间留有间隙 */
+    gap: 0; /* 移除所有卡片间的间隙 */
+    margin: 0; /* 确保父容器没有外边距 */
+    padding: 0; /* 移除父容器的内边距 */
 }
 
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
