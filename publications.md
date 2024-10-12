@@ -15,8 +15,8 @@ menu: publications
 
 ## 2023
 
-1. **Wang, S.**, Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., \& Huang, G. (2023). [Smart patterning for topological pumping of elastic surface waves](https://www.science.org/doi/10.1126/sciadv.adh4310). Science Advances, 9(30), eadh4310. <a href="/assets/files/2023SciAdv.pdf">pdf</a>.
-2. Wu, Q., Xu, X., Qian, H., **Wang, S.**, Zhu, R., Yan, Z., ... \& Huang, G. (2023). [Active metamaterials for realizing odd mass density](https://doi.org/10.1073/pnas.2209829120). Proceedings of the National Academy of Sciences, 120(21), e2209829120. <a href="/assets/files/2023PNAS.pdf">pdf</a>.
+1. **Wang, S.**, Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., & Huang, G. (2023). [Smart patterning for topological pumping of elastic surface waves](https://www.science.org/doi/10.1126/sciadv.adh4310). Science Advances, 9(30), eadh4310. <a href="/assets/files/2023SciAdv.pdf">pdf</a>.
+2. Wu, Q., Xu, X., Qian, H., **Wang, S.**, Zhu, R., Yan, Z., ... & Huang, G. (2023). [Active metamaterials for realizing odd mass density](https://doi.org/10.1073/pnas.2209829120). Proceedings of the National Academy of Sciences, 120(21), e2209829120. <a href="/assets/files/2023PNAS.pdf">pdf</a>.
 3. Wu, Y., Su, C., **Wang, S.**, Zheng, B., Mahjoubnia, A., Sattari, K., ... & Lin, J. (2023). [A photocured bio-based shape memory thermoplastics for reversible wet adhesion](https://doi.org/10.1016/j.cej.2023.144226). *Chemical Engineering Journal*, *470*, 144226. <a href="/assets/files/2023CEJ.pdf">pdf</a>.
 
 ## 2022
