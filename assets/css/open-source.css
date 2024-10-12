@@ -11,14 +11,6 @@
     margin-bottom: 20px; /* 底部留出空间，避免卡片之间重叠 */
 }
 
-.card-image {
-    display: flex;
-    height: 300px; /* 设置固定高度 */
-    width: 100%;
-    overflow-x: hidden;
-    border-radius: 4px;
-}
-
 /* 确保图片适应卡片大小，不超出边界 */
 .card-image img {
     width: 100%; /* 图片宽度适应卡片 */
