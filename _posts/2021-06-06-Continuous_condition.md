@@ -16,7 +16,7 @@ Assume the interface $S$ is $z=0$.
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-<img src='/assets/images/Screen Shot 2021-06-06 at 01.02.52.png' style="zoom:30%;" />  | <img src="/Users/wang/Documents/GitHub/wangshaoyun.github.io/_posts/assets/202410121434247-20241012143604213.png" style="zoom:30%;" /> 
+<img src="https://raw.github.com/wangshaoyun/image/master/202410121435547.png" style="zoom:30%;" />  | <img src="https://raw.github.com/wangshaoyun/image/master/202410121434247.png" style="zoom:30%;" /> 
 
 
 
