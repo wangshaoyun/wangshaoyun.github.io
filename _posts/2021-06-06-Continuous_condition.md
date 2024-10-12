@@ -6,18 +6,19 @@ tags: Mechanics
 
 ---
 
-[TOC]
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-<img src="/assets/images/Screen Shot 2021-06-06 at 01.02.52.png" alt="Screen Shot 2021-06-06 at 01.02.52" style="zoom:10%;" />  | <img src="/assets/images/Screen Shot 2021-06-06 at 01.02.42.png" alt="Screen Shot 2021-06-06 at 01.02.42" style="zoom:10%;" /> 
+## Displacement
+
+Obviously, according to the continuous condition, the displacements $\vec{u}$ is continuous at the surface $S$. If it is not, there are holes or overlaps in the body which is contradictory to the continuous condition.
 
 
 
 Assume the interface $S$ is $z=0$. 
 
-## Displacement
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img src="/Users/wang/Documents/GitHub/wangshaoyun.github.io/_posts/assets/202410121435547-20241012143547100.png" style="zoom:30%;" />  | <img src="/Users/wang/Documents/GitHub/wangshaoyun.github.io/_posts/assets/202410121434247-20241012143604213.png" style="zoom:30%;" /> 
 
-Obviously, according to the continuous condition, the displacements $\vec{u}$ is continuous at the surface $S$. If it is not, there are holes or overlaps in the body which is contradictory to the continuous condition.
+
 
 ## Derivatives of displacements
 
