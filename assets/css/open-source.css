@@ -1,9 +1,3 @@
-/* 确保父容器和卡片之间没有间隙 */
-.container {
-    padding: 0;
-    margin: 0;
-}
-
 /* 容器设置为flexbox布局 */
 .card-container {
     display: flex;
