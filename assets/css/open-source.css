@@ -43,6 +43,7 @@
 .card-description {
     flex-grow: 1; /* 占据剩余空间 */
     padding: 3px; /* 添加一些内边距 */
+    text-align: left; /* 描述文字居左 */
     overflow: visible; /* 确保内容不被隐藏 */
 }
 
