@@ -14,14 +14,6 @@
     padding: 0; /* 移除父容器的内边距 */
 }
 
-.repo-list {
-    display: flex;
-    flex-wrap: wrap; /* 允许卡片换行 */
-    margin: 0; /* 移除容器外边距 */
-    padding: 0; /* 移除容器内边距 */
-    gap: 0; /* 移除卡片之间的间距 */
-}
-
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
 .card {
     width: 65%; /* 留出间隙 */
