@@ -27,11 +27,15 @@ $$
 u_{i,j}^1=\frac{\partial u_i^1}{\partial x_j}=\lim_{\Delta x_i \rightarrow 0} \frac{u^1(x_i + \Delta x_i) - u^1(x_i)}{\Delta x_i} \\
 u_{i,j}^2=\frac{\partial u_i^2}{\partial x_j}=\lim_{\Delta x_i \rightarrow 0} \frac{u^2(x_i + \Delta x_i) - u^2(x_i)}{\Delta x_i}, i=1,2,3;j=1,2
 $$
+
+
 And because of the continuous condition of $\vec u$, we have
 $$
 u^1(x_i + \Delta x_i)=u^2(x_i + \Delta x_i)\\
 u^1(x_i) = u^2(x_i).
 $$
+
+
 Therefore, we have
 $$
 u_{i,j}^1=u_{i,j}^2

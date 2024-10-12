@@ -4,11 +4,12 @@ title: Markdown Cheatsheet
 category: Guides
 tags: Guides
 ---
-From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 See <a href="https://wangshaoyun.github.io/assets/files/markdown.pdf">markdown</a> guide pdf here.
 
 ##### Table of Contents
+
 [Headers](#headers)
 [Emphasis](#emphasis)
 [Lists](#lists)
@@ -23,6 +24,7 @@ See <a href="https://wangshaoyun.github.io/assets/files/markdown.pdf">markdown</
 [Youtube videos](#videos)
 
 <a name="headers"/>
+
 ## Headers
 
 ```no-highlight
@@ -105,7 +107,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
-  
+
   * Unordered sub-list.
 1. Actual numbers don't matter, just that it's a number
   
