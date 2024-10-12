@@ -11,7 +11,6 @@ menu: publications
 2. Wu, Y., Qiu, C., Silva, K. J., Shin, J., Wang, S., Zheng, B., ... & Lin, J. (2024). [Manipulate dynamic chemical interactions in renewable polymers for 3D printing tunable, healable, and recyclable metamaterials](https://doi.org/10.1016/j.cej.2024.156138). *Chemical Engineering Journal*, 156138. <a href="/assets/files/2024CEJ.pdf">pdf</a>.
 3. Lux, F. R., Stoiber, T., **Wang, S.**, Huang, G., & Prodan, E. (2024). [Topological spectral bands with frieze groups](https://doi.org/10.1063/5.0127973). Journal of Mathematical Physics, 65(6). <a href="/assets/files/2024JMP.pdf">pdf</a>.
 4. Zheng, B., Xie, Y., Xu, S., Meng, A. C., **Wang, S.**, ... & Lin, J. (2024). [Programmed multimaterial assembly by synergized 3D printing and freeform laser induction](https://doi.org/10.1038/s41467-024-48919-5). Nature Communications, 15(1), 4541. <a href="/assets/files/2024NC.pdf">pdf</a>.
-5. 
 
 ## 2023
 
