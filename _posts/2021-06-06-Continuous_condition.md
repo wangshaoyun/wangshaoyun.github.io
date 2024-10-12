@@ -9,7 +9,7 @@ tags: Mechanics
 [TOC]
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-<img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.52.png" alt="Screen Shot 2021-06-06 at 01.02.52" style="zoom:10%;" />  | <img src="/Users/wang/Desktop/OneDrive - University of Missouri/record/images/mechancis/Screen Shot 2021-06-06 at 01.02.42.png" alt="Screen Shot 2021-06-06 at 01.02.42" style="zoom:10%;" />
+<img src="/assets/images/Screen Shot 2021-06-06 at 01.02.52.png" alt="Screen Shot 2021-06-06 at 01.02.52" style="zoom:10%;" />  | <img src="/assets/images/Screen Shot 2021-06-06 at 01.02.42.png" alt="Screen Shot 2021-06-06 at 01.02.42" style="zoom:10%;" /> 
 
 
 
