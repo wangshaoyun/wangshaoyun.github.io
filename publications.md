@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_publication
 title: Publications
 subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; Shaoyun's Publications
 menu: publications
