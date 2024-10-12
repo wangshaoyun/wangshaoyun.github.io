@@ -1,101 +1,61 @@
-<!-- <html lang="en">
+<div id="container-open-source">
+    <section class="jumbotron geopattern" data-pattern-id="{{ page.title }}">
+        <div class="container">
+            <div id="jumbotron-meta-info">
+                <h1>Open Source Projects</h1>
+                <span class="meta-info">
+                    Here are some projects that I worked on.
+                </span>
+            </div>
+        </div>
+    </section>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Example</title>
-    <link rel="stylesheet" href="assets/open-source.css"> <!-- 假设你的CSS文件命名为style.css -->
-<!-- </head>
-
-<body> -->
-
-    <div class="card-container">
-        <!-- 卡片 1 -->
-        <div class="card">
-            <div class="thumbnail">
-                <div class="card-image">
-                    <img src="https://raw.github.com/wangshaoyun/image/master/202210061436117.jpeg" alt="Card Image 1">
-                </div>
-                <div class="caption">
-                    <h3 class="card-title">
-                        <a href="#">Card Title 1</a>
-                    </h3>
-                    <div class="card-description">
-                        <p class="card-text">This is a description of card 1. It provides more information about the
-                            content.</p>
+    <section class="container">
+        <div class="repo-list row">
+            <!-- 卡片 1 -->
+            <div class="col-md-4 card text-center">
+                <div class="thumbnail">
+                    <!-- 手动添加图片 -->
+                    <div class="card-image">
+                        <img src="https://raw.github.com/wangshaoyun/image/master/202210061436117.jpeg" alt="Card Image 1"
+                            style="width: 100%; border-radius: 4px 4px 0 0;">
                     </div>
-                    <div class="card-text">
-                        <span class="meta-info">Meta Info 1</span>
+                    <div class="caption">
+                        <!-- 手动添加的名称 -->
+                        <h3 class="card-title">Project Name 1</h3>
+                        <div class="card-description">
+                            <p class="card-text">This is a description for the first project. It provides information
+                                about the content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 卡片 2 -->
+            <div class="col-md-4 card text-center">
+                <div class="thumbnail">
+                    <!-- 手动添加图片 -->
+                    <div class="card-image">
+                        <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Card Image 2"
+                            style="width: 100%; border-radius: 4px 4px 0 0;">
+                    </div>
+                    <div class="caption">
+                        <!-- 手动添加的名称 -->
+                        <h3 class="card-title">Project Name 2</h3>
+                        <div class="card-description">
+                            <p class="card-text">This is a description for the second project. It provides information
+                                about the content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+</div>
 
-        <!-- 卡片 2 -->
-        <div class="card">
-            <div class="thumbnail">
-                <div class="card-image">
-                    <img src="https://raw.github.com/wangshaoyun/image/master/202304221754868.png" alt="Card Image 2">
-                </div>
-                <div class="caption">
-                    <h3 class="card-title">
-                        <a href="#">Card Title 2</a>
-                    </h3>
-                    <div class="card-description">
-                        <p class="card-text">This is a description of card 2. It provides more information about the
-                            content.</p>
-                    </div>
-                    <div class="card-text">
-                        <span class="meta-info">Meta Info 2</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 卡片 3 -->
-        <div class="card">
-            <div class="thumbnail">
-                <div class="card-image">
-                    <img src="https://raw.github.com/wangshaoyun/image/master/202307041113196.png" alt="Card Image 3">
-                </div>
-                <div class="caption">
-                    <h3 class="card-title">
-                        <a href="#">Card Title 3</a>
-                    </h3>
-                    <div class="card-description">
-                        <p class="card-text">This is a description of card 3. It provides more information about the
-                            content.</p>
-                    </div>
-                    <div class="card-text">
-                        <span class="meta-info">Meta Info 3</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 卡片 4 -->
-        <div class="card">
-            <div class="thumbnail">
-                <div class="card-image">
-                    <img src="https://raw.github.com/wangshaoyun/image/master/202307041113196.png" alt="Card Image 4">
-                </div>
-                <div class="caption">
-                    <h3 class="card-title">
-                        <a href="#">Card Title 4</a>
-                    </h3>
-                    <div class="card-description">
-                        <p class="card-text">This is a description of card 4. It provides more information about the
-                            content.</p>
-                    </div>
-                    <div class="card-text">
-                        <span class="meta-info">Meta Info 4</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-<!-- </body>
-
-</html> -->
+<script>
+    $(document).ready(function () {
+        // Enable bootstrap tooltip (if needed)
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+    });
+</script>
