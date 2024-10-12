@@ -1,5 +1,5 @@
 ---
-layout: page_research
+layout: page
 title:Research Projects
 menu: open-source
 css: ['open-source.css']
