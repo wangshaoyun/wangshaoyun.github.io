@@ -8,6 +8,14 @@
     padding: 0; /* 移除父容器的内边距 */
 }
 
+/* 父容器设置为flex布局，允许卡片紧密排列 */
+.repo-list {
+    display: flex;
+    flex-wrap: wrap; /* 允许卡片换行 */
+    margin: 0; /* 移除外边距 */
+    padding: 0; /* 移除内边距 */
+}
+
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
 .card {
     width: 65%; /* 留出间隙 */
