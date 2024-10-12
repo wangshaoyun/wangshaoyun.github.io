@@ -4,14 +4,12 @@
     margin: 0;
 }
 
-/* 容器设置为flexbox布局 */
-.card-container {
+.repo-list {
     display: flex;
-    flex-wrap: wrap; /* 允许换行 */
-    justify-content: space-between; /* 在两张卡片之间留有间隙 */
-    gap: 0; /* 移除所有卡片间的间隙 */
-    margin: 0; /* 确保父容器没有外边距 */
-    padding: 0; /* 移除父容器的内边距 */
+    flex-wrap: wrap; /* 允许卡片换行 */
+    margin: 0; /* 移除容器外边距 */
+    padding: 0; /* 移除容器内边距 */
+    gap: 0; /* 移除卡片之间的间距 */
 }
 
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
