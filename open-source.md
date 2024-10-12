@@ -1,8 +1,8 @@
 ---
-layout: page_research
-title:Research Projects
+layout: default
+title: Open Source Projects
 menu: open-source
 css: ['open-source.css']
 javascript: ['underscore-min.js']
 ---
-{% include research.html %}
+{% include open-source-page.html %}

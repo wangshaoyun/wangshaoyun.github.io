@@ -1,29 +1,9 @@
-/* 容器设置为flexbox布局 */
-.card-container {
-    display: flex;
-    flex-wrap: wrap; /* 允许换行 */
-    justify-content: space-between; /* 在两张卡片之间留有间隙 */
-}
-
-/* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
-.card {
-    width: 48%; /* 留出间隙 */
-    margin-bottom: 20px; /* 底部留出空间，避免卡片之间重叠 */
-}
-
 .card-image {
     display: flex;
-    height: 300px; /* 设置固定高度 */
+    height: 180px;
     width: 100%;
     overflow-x: hidden;
     border-radius: 4px;
-}
-
-/* 确保图片适应卡片大小，不超出边界 */
-.card-image img {
-    width: 100%;  /* 图片宽度适应卡片 */
-    object-fit: cover; /* 保持图片比例并裁剪超出的部分 */
-    border-radius: 4px 4px 0 0; /* 图片顶部的圆角与卡片一致 */
 }
 
 .card-image .card-image-cell {
