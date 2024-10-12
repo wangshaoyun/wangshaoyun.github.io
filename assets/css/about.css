@@ -4,6 +4,9 @@
 
 .about p {
     text-indent: 30px;
+    font-size: 18px; /* Adjust the size as needed */
+    line-height: 1.6; /* Optional: Improve readability */
+
 }
 
 .about .btn {
