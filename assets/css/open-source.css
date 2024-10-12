@@ -34,6 +34,11 @@
     align-items: stretch; /* 卡片内部内容高度一致 */
 }
 
+.card-text {
+    font-size: 14px; /* 调整卡片文本的字体大小 */
+    line-height: 1.6; /* 提高文本的行高 */
+}
+
 .card-image {
     display: flex;
     height: auto; /* 设置固定高度 */
