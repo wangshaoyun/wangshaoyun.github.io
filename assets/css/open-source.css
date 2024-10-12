@@ -16,13 +16,20 @@
     padding: 0; /* 移除内边距 */
 }
 
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
 /* 卡片样式，宽度设置为50%，使每行显示两个卡片 */
 .card {
     width: 48%; /* 留出间隙 */
     margin-bottom: auto; /* 底部留出空间，避免卡片之间重叠 */
     display: flex;
     flex-direction: column; /* 让内容垂直排列 */
-    justify-content: space-between;
+    flex: 0 1 48%;
 }
 
 .card-image {
