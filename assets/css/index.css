@@ -27,7 +27,7 @@
     background-position: center; /* 背景图片居中显示 */
     background-repeat: no-repeat; /* 防止图片重复 */
     color: white; /* 设置文本颜色为白色，确保在图片上可见 */
-    padding: 185px 0; /* 控制 jumbotron 的上下内边距 */
+    padding: 195px 0; /* 控制 jumbotron 的上下内边距 */
     text-align: center; /* 居中对齐文字 */
 }
 
