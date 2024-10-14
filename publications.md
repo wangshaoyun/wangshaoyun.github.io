@@ -20,7 +20,7 @@ menu: publications
 
 ## 2022
 
-1. Chen, H., **Wang, S.**, Li, X., \& Huang, G. (2022). [Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation](https://doi.org/10.1016/j.ijsolstr.2022.111891). International Journal of Solids and Structures, 254, 111891. <a href="/assets/files/2022IJSS.pdf">pdf</a>.
+1. Chen, H., **Wang, S.**, Li, X., & Huang, G. (2022). [Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation](https://doi.org/10.1016/j.ijsolstr.2022.111891). International Journal of Solids and Structures, 254, 111891. <a href="/assets/files/2022IJSS.pdf">pdf</a>.
 
 ## 2020
 
