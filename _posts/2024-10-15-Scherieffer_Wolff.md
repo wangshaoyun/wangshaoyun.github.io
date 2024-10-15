@@ -5,6 +5,8 @@ category: Physics
 tags: Physics
 ---
 
+<a href="/assets/notes/Effective Mass spring">PDF</a>
+
 
 
 For simplicity, we set $m_1 = m_2 = M_1 = M_2=1$, so Eq. (11) can be transformed into
