@@ -5,7 +5,7 @@ category: Physics
 tags: Physics
 ---
 
-<a href="/assets/notes/Effective Mass spring">PDF</a>
+<a href="/assets/notes/Effective Mass spring.pdf">PDF</a>
 
 
 
