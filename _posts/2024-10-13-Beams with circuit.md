@@ -1,3 +1,12 @@
+---
+layout: post
+title: Beams with Circuits
+category: Mechanics
+tags: Mechanics
+---
+
+
+
 # 1 Beam with connecting circuit
 
 | <img src="assets/Screenshot of Preview (12-19-23, 15-04-31).png" alt="Screenshot of Preview (12-19-23, 15-04-31)" style="zoom:50%;" /> |

@@ -1,3 +1,12 @@
+---
+layout: post
+title: Vibration of Continuous System
+category: Mechanics
+tags: Mechanics
+---
+
+
+
 # 1 Questions
 
 How to make equivalence from real structures?
