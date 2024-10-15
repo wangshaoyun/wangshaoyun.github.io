@@ -96,6 +96,14 @@
     transform: translateX(-20px);
 }
 
+.MathJax_Display {
+    display: block !important;
+    text-align: center !important;
+}
+.MathJax_Processed {
+    display: block !important;
+    visibility: visible !important;
+}
 
 
 

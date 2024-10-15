@@ -10,6 +10,7 @@ tags: Physics
 
 
 For simplicity, we set $m_1 = m_2 = M_1 = M_2=1$, so Eq. (11) can be transformed into
+
 $$
 \frac{1}{2}\left[\begin{array}{cccc}
 h & -h & h & -h \\
@@ -29,7 +30,9 @@ v_{3} \\
 v_{4}
 \end{array}\right]
 $$
+
 We separate Eq. (14) into the leading term and perturbative term, so we have
+
 $$
 \frac{1}{2}\left[\begin{array}{cccc}
 h & -h & 0 & 0 \\
@@ -60,18 +63,25 @@ v_{4}
 \end{array}\right] \\
 \text{or} \quad K v = \omega^2 v, \ \text{where} \ K = K_0+K_1.
 $$
+
 Now we want to do the Schrieffer-Wolff transform to separate the low frequency subspace to the high frequency subspace. We define the unitary transform $v=\mathcal{U}w$ where $\mathcal{U}=e^{S}$ and $S$ is an anti-Hermitian matrix. After the unitary transform the stiffness matrix is transformed into
+
 $$
 K' = e^{S} K e^{-S}
 $$
+
 By using the Baker-Campbell-Haussdorf formula , we have
+
 $$
 K^{\prime}=K+[S, K]+\frac{1}{2}[S,[S, K]]+\ldots
 $$
+
 or
+
 $$
 K^{\prime}=K_{0}+K_1+\left[S, K_{0}\right]+ [S, K_1]-\frac{1}{2}\left[S,\left[S, K_{0}\right]\right]-\frac{1}{2}[S,[S, K_1]]+\ldots
 $$
+
 The Hamiltonian can be made diagonal to first order in $K_1$ by choosing the generator $S$ such that
 $$
 \left[K_{0}, S\right]= K_1
