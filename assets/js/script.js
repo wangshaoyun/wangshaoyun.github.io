@@ -5,12 +5,12 @@ var windowScroll = function () {
         var scrollPos = $(this).scrollTop();
         
         var system ={win : false,mac : false,xll : false};
-        //¼ì²âÆ½Ì¨
+        //ï¿½ï¿½ï¿½Æ½Ì¨
         var p = navigator.platform;
         system.win = p.indexOf("Win") == 0;
         system.mac = p.indexOf("Mac") == 0;
         system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-        //ÅĞ¶ÏÆ½Ì¨ÀàĞÍ
+        //ï¿½Ğ¶ï¿½Æ½Ì¨ï¿½ï¿½ï¿½ï¿½
         if(system.win||system.mac||system.xll){
             if ($(window).scrollTop() > 70)
             {
@@ -19,7 +19,7 @@ var windowScroll = function () {
                 $('.site-header').removeClass('site-header-nav-scrolled');
             }
         }else{
-            //Èç¹ûÊÇÊÖ»úÔò½«¶¥À¸ÒÆ³ı½çÃæ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ò½«¶ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½
             if ($(window).scrollTop() > 40) 
             {
                 $('.site-header').addClass('site-header-nav-scrolled-ph');
@@ -27,6 +27,8 @@ var windowScroll = function () {
                 $('.site-header').removeClass('site-header-nav-scrolled-ph');
             }
         }
+        // æ‰‹åŠ¨è§¦å‘ MathJax æ¸²æŸ“
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
  });
 };
 
