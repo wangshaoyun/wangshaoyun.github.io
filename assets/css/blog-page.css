@@ -95,3 +95,767 @@
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
 }
+
+
+:root {
+  --title-color: #8064a9;
+  --text-color: #444444;
+  --light-text-color: #666666;
+  --link-color: #2aa899;
+  --code-color: #745fb5;
+
+  --shadow-color: #eee;
+  --purple-light: rgba(116, 95, 181, 0.2);
+  --border: #e7e7e7;
+  --shadow: 3px 3px 10px var(--shadow-color);
+
+  --side-bar-bg-color: #fafafa;
+  --control-text-color: var(var(--light-text-color));
+  --active-file-text-color: var(--title-color);
+  --active-file-bg-color: var(--shadow-color);
+  --item-hover-bg-color: var(--shadow-color);
+  --active-file-border-color: var(var(--title-color));
+
+  --base-font: "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
+    "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
+    "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
+    "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+    SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
+  --title-font: "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC",
+    "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
+    "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
+    SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
+    "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
+    "Ubuntu", "Source Sans Pro", serif;
+  --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
+    Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
+    "Roboto Mono", Courier, Monospace !important;
+}
+
+
+/* 打印 */
+@media print {
+  html {
+    font-size: 0.1rem;
+  }
+
+  table,
+  pre {
+    page-break-inside: avoid;
+  }
+
+  pre {
+    word-wrap: break-word;
+  }
+  #write {
+    max-width: 150%;
+  }
+  @page {
+    size: A4; /* PDF output size */
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+html {
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: initial;
+}
+
+body {
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4rem;                  /* line spacing of body */
+  letter-spacing: 0;
+  overflow-x: hidden;
+}
+
+/* 页边距 和 页面大小 */
+#write {
+  font-family: var(--base-font);
+  /* max-width: 914px; */
+  margin: 0 auto;
+  padding: 1rem 4rem;
+  padding-bottom: 100px;
+}
+
+#write p {
+  line-height: 1.4rem;
+  word-spacing: 0.05rem;
+}
+
+body > *:first-child {
+  margin-top: 0 !important;
+}
+
+body > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+/*Hyperlink*/
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+#write a {
+  border-bottom: none;
+}
+#write a:hover {
+  border-bottom: 1px solid var(--link-color);
+  color: var(--link-color);
+  text-decoration: none;
+}
+/*Content*/
+.md-content {
+  color: var(--light-text-color);
+}
+
+/*Header setting*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  line-height: 1;
+  cursor: text;
+  color: var(--title-color);
+  font-family: var(--title-font);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+h1:after {                  /* Horizontal line after h1 */ 
+  content: "";
+  display: block;
+  margin: 0.2em auto 0;
+  width: 6rem;
+  height: 2px;
+  border-bottom: 2px solid var(--title-color);
+}
+
+h2 {
+  padding-left: 0.4em;
+  font-size: 1.3em;
+  border-left: 0.4em solid var(--title-color);  /* vertical line before h2 */ 
+  border-bottom: 1px solid var(--title-color); /* Horizontal line after h2 */ 
+}
+h3 {
+  font-size: 1.1em;
+}
+h4 {
+  font-size: 1.0em;
+}
+h5 {
+  font-size: 1.0em;
+}
+h6 {
+  font-size: 1.0em;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0 rem; /* between paragraphs */
+  margin-top: 0 rem; /* between paragraphs */
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* horizontal rule */
+hr {
+  margin: 1.5em auto;
+  border-top: 1px solid var(--border);
+}
+
+/* ordered list and unordered list */
+li > ol,
+li > ul {
+  margin: 0 0;
+}
+
+li p.first {
+  display: inline-block;
+}
+
+ul,
+ol {
+  padding-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+#write ol li,
+ul li {
+  padding-left: 0.1rem;
+}
+
+/* quote */
+blockquote {
+  border-left: 0.2em solid var(--purple-light);
+  padding-left: 1em;
+  color: var(--light-text-color);
+  font-family: var(--base-font);
+}
+
+/* table */
+/*table {
+  margin-bottom: 0.7rem;
+}*/
+table th,
+table td {
+  padding: 8px;
+  line-height: 1.25rem;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+table th {
+  font-weight: bold;
+}
+table thead th {
+  vertical-align: middle;
+}
+table tr:nth-child(2n),
+thead {
+  background-color: #fcfcfc;
+}
+
+.markdown-preview-view table{
+margin-left: auto;
+margin-right: auto;
+}
+
+.markdown-preview-view table {
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+/* 粗体 */
+#write strong {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+/* inline code */
+#write code,
+tt {
+  padding: 2px 4px;
+  border-radius: 0.3rem;
+  font-family: var(--monospace);
+  font-size: 0.9rem;
+  color: var(--code-color);
+  background-color: #f4f2f9;
+  margin: 0 2px;
+}
+
+#write .md-footnote {
+  color: var(--code-color);
+  background-color: #f4f2f9;
+}
+
+/* highlight. */
+#write mark {
+  background-color: #f9f2f4;
+  border-radius: 0.3rem;
+  padding: 2px 4px;
+  margin: 0 2px;
+  color: #c7254e;
+}
+
+#write del {
+  padding: 1px 2px;
+}
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+#write pre.md-meta-block {
+  padding: 1rem;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 3px;
+  color: #777777;
+  margin-top: 0 !important;
+}
+
+.mathjax-block > .code-tooltip {
+  bottom: 0.375rem;
+}
+
+/* math block only */
+.md-math-block .MathJax {
+  font-size: 90%   !important;
+}
+/* math block */
+.md-math-block{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+/* inline math*/
+.MathJax {  
+  font-size: 90% !important;
+}
+
+/* 图片 */
+.md-image > .md-meta {
+  border-radius: 3px;
+  font-family: var(--monospace);
+  padding: 2px 0 0 4px;
+  font-size: 0.9em;
+  color: inherit;
+}
+/* 图片靠左显示 */
+/* p .md-image:only-child {
+  width: auto;
+  text-align: left;
+  margin-left: 2rem;
+} */
+
+/* 写![shadow-...]() 显示图片阴影 */
+img[alt|="shadow"] {
+  box-shadow: var(--shadow);
+}
+
+#write a.md-toc-inner {
+  line-height: 1.6;
+  white-space: pre-line;
+  border-bottom: none;
+  font-size: 0.9rem;
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+  font-family: var(--base-font);
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state {
+  visibility: visible;
+}
+
+.md-lang {
+  color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+  --item-hover-bg-color: #e6f0fe;
+}
+
+/* border and bg */
+.md-fences {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: #fdfdfd !important;
+}
+/* 代码框阴影 */
+#write pre.md-fences {
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: var(--shadow);
+}
+
+.cm-s-inner {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.cm-s-inner.CodeMirror,
+.cm-s-inner .CodeMirror-gutters {
+  color: #3a3432 !important;
+  border: none;
+}
+
+.cm-s-inner .CodeMirror-gutters {
+  color: #6d8a88;
+}
+
+.cm-s-inner .CodeMirror-linenumber {
+  padding: 0 0.1rem 0 0.3rem;
+  color: #b8b5b4;
+}
+
+.cm-s-inner .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: #a34e8f !important;
+}
+
+#fences-auto-suggest .active {
+  background: #ddd;
+}
+
+.cm-s-inner span.cm-comment {
+  color: #9daab6;
+}
+.cm-s-inner span.cm-builtin {
+  color: #0451a5;
+}
+
+/* language tip */
+#write .code-tooltip {
+  border: 1px solid var(--border);
+}
+
+.auto-suggest-container {
+  border-color: #b4b4b4;
+}
+
+.auto-suggest-container .autoComplt-hint.active {
+  background: #b4b4b4;
+  color: inherit;
+}
+
+/* task list */
+#write .md-task-list-item > input {
+  -webkit-appearance: initial;
+  display: block;
+  position: absolute;
+  border: 1px solid #b4b4b4;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  height: 1rem;
+  width: 1rem;
+  transition: background 0.3s;
+}
+
+#write .md-task-list-item > input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#write .md-task-list-item > input:hover {
+  background: #ddd;
+}
+
+#write .md-task-list-item > input[checked]::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 60%;
+  width: 2px;
+  transform: rotate(40deg);
+  background: #333;
+}
+
+#write .md-task-list-item > input[checked]::after {
+  content: "";
+  position: absolute;
+  top: 46%;
+  left: 25%;
+  height: 30%;
+  width: 2px;
+  transform: rotate(-40deg);
+  background: #333;
+}
+
+#write .md-task-list-item > p {
+  transition: color 0.3s, opacity 0.3s;
+}
+
+#write .md-task-list-item.task-list-done > p {
+  color: #b4b4b4;
+  text-decoration: line-through;
+}
+
+#write .md-task-list-item.task-list-done > p > .md-emoji {
+  opacity: 0.5;
+}
+
+#write .md-task-list-item.task-list-done > p > .md-link > a {
+  opacity: 0.6;
+}
+
+/* sidebar */
+#typora-sidebar,
+.typora-node #typora-sidebar {
+  box-shadow: 3px 0px 10px var(--shadow-color);
+}
+.sidebar-content-content {
+  font-size: 0.9rem;
+}
+
+/** initialize css counter */
+#write {
+    counter-reset: h1
+}
+
+h1 {
+    counter-reset: h2
+}
+
+h2 {
+    counter-reset: h3
+}
+
+h3 {
+    counter-reset: h4
+}
+
+h4 {
+    counter-reset: h5
+}
+
+h5 {
+    counter-reset: h6
+}
+
+/** put counter result into headings */
+#write h1:before {
+    counter-increment: h1;
+    content: counter(h1) ". "
+}
+
+#write h2:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) ". "
+}
+
+#write h3:before,
+h3.md-focus.md-heading:before /** override the default style for focused headings */ {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "
+}
+
+#write h4:before,
+h4.md-focus.md-heading:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+
+#write h5:before,
+h5.md-focus.md-heading:before {
+    counter-increment: h5;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+
+#write h6:before,
+h6.md-focus.md-heading:before {
+    counter-increment: h6;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+}
+
+/** override the default style for focused headings */
+#write>h3.md-focus:before,
+#write>h4.md-focus:before,
+#write>h5.md-focus:before,
+#write>h6.md-focus:before,
+h3.md-focus:before,
+h4.md-focus:before,
+h5.md-focus:before,
+h6.md-focus:before {
+    color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    position: inherit;
+    left:initial;
+    float: none;
+    top:initial;
+    font-size: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+    vertical-align: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+/**************************************
+ * Header Counters in TOC
+ **************************************/
+
+/* No link underlines in TOC */
+.md-toc-inner {
+    text-decoration: none;
+}
+
+.md-toc-content {
+    counter-reset: h1toc
+}
+
+.md-toc-h1 {
+    margin-left: 0;
+    font-size: 1rem;
+    counter-reset: h2toc
+}
+
+.md-toc-h2 {
+    font-size: 1rem;
+    margin-left: 2rem;
+    counter-reset: h3toc
+}
+
+.md-toc-h3 {
+    margin-left: 3rem;
+    font-size: .95rem;
+    counter-reset: h4toc
+}
+
+.md-toc-h4 {
+    margin-left: 4rem;
+    font-size: .95rem;
+    counter-reset: h5toc
+}
+
+.md-toc-h5 {
+    margin-left: 5rem;
+    font-size: .85rem;
+    counter-reset: h6toc
+}
+
+.md-toc-h6 {
+    margin-left: 6rem;
+    font-size: .85rem;
+}
+
+.md-toc-h1:before {
+    color: black;
+    counter-increment: h1toc;
+    content: counter(h1toc) ". "
+}
+
+.md-toc-h1 .md-toc-inner {
+    margin-left: 0;
+}
+
+.md-toc-h2:before {
+    color: black;
+    counter-increment: h2toc;
+    content: counter(h1toc) ". " counter(h2toc) ". "
+}
+
+.md-toc-h2 .md-toc-inner {
+    margin-left: 0;
+}
+
+.md-toc-h3:before {
+    color: black;
+    counter-increment: h3toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". "
+}
+
+.md-toc-h3 .md-toc-inner {
+    margin-left: 0;
+}
+
+.md-toc-h4:before {
+    color: black;
+    counter-increment: h4toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". "
+}
+
+.md-toc-h4 .md-toc-inner {
+    margin-left: 0;
+}
+
+.md-toc-h5:before {
+    color: black;
+    counter-increment: h5toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". "
+}
+
+.md-toc-h5 .md-toc-inner {
+    margin-left: 0;
+}
+
+.md-toc-h6:before {
+    color: black;
+    counter-increment: h6toc;
+    content: counter(h1toc) ". " counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". " counter(h6toc) ". "
+}
+
+.md-toc-h6 .md-toc-inner {
+    margin-left: 0;
+}
+
+.sidebar-content {
+    counter-reset: h1
+}
+
+
+window.MathJax = {
+  tex: {
+    tags: 'ams'
+  }
+};
+ 
+
+ /*Outline*/
+.outline-h1 {
+    counter-reset: h2
+}
+ 
+.outline-h2 {
+    counter-reset: h3
+}
+ 
+.outline-h3 {
+    counter-reset: h4
+}
+ 
+.outline-h4 {
+    counter-reset: h5
+}
+ 
+.outline-h5 {
+    counter-reset: h6
+}
+ 
+.outline-h1>.outline-item>.outline-label:before {
+    counter-increment: h1;
+    content: counter(h1) ". "
+}
+ 
+.outline-h2>.outline-item>.outline-label:before {
+    counter-increment: h2;
+    content: counter(h1) "." counter(h2) ". "
+}
+ 
+.outline-h3>.outline-item>.outline-label:before {
+    counter-increment: h3;
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "
+}
+ 
+.outline-h4>.outline-item>.outline-label:before {
+    counter-increment: h4;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "
+}
+ 
+.outline-h5>.outline-item>.outline-label:before {
+    counter-increment: h5;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+ 
+.outline-h6>.outline-item>.outline-label:before {
+    counter-increment: h6;
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+}
