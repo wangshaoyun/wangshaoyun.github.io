@@ -23,7 +23,6 @@
 >
 </script> -->
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,6 +33,7 @@
   <!-- 引用外部 CSS 文件 -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- MathJax 配置 -->
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
@@ -46,20 +46,29 @@
     });
   </script>
 
+  <!-- 引入 MathJax 脚本 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+  <!-- 页面加载后手动触发 MathJax 渲染 -->
   <script type="text/javascript">
     window.onload = function () {
       MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
     };
+
+    // 手动触发 MathJax 重新渲染的函数（如果需要）
+    function rerenderMathJax() {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
   </script>
 
 </head>
 
-
 <body>
   <p>这是一个块级公式：</p>
   $$ a^2 + b^2 = c^2 $$
+
+  <!-- 手动触发 MathJax 渲染按钮 -->
+  <button onclick="rerenderMathJax()">重新渲染公式</button>
 </body>
 
 </html>
