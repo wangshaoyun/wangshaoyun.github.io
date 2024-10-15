@@ -1,0 +1,8 @@
+.MathJax_Processed {
+  display: block !important;  /* 强制显示 MathJax 元素 */
+  visibility: visible !important;
+}
+
+.MathJax_Display {
+  text-align: center !important;  /* 确保 displayMath 公式居中 */
+}
