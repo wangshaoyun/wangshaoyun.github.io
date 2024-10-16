@@ -5,6 +5,8 @@ category: Mechanics
 tags: Mechanics
 ---
 
+<a href="/assets/notes/2024-10-14-Vibration of Continuous System.pdf">PDF</a>
+
 # 1 Questions
 
 How to make equivalence from real structures?
@@ -27,14 +29,17 @@ $$
 \omega = \sqrt{\frac{E}{\rho}} \frac{\pi}{L}
 $$
 
+
+| <img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.17.41.png" style="zoom:22%;" /><img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.18.24.png" style="zoom:22%;" /> |
+| :----------------------------------------------------------: |
+|                                                              |
+
+
 Frequency of lowest mode under fixed-free condition:
 
 $$
 \omega = \sqrt{\frac{E}{\rho}} \frac{\pi}{2L}
 $$
-
-| <img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.17.41.png" style="zoom:30%;" /><img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.18.24.png" style="zoom:28%;" /> |
-| :----------------------------------------------------------: |
 
 > Rao, S. S. (2019). *Vibration of continuous systems*. John Wiley & Sons.
 

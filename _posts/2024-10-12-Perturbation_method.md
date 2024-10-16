@@ -5,7 +5,7 @@ category: Mathematics
 tags: Mathematics
 ---
 
-
+<a href="/assets/notes/2024-10-12-Perturbation Method.pdf">PDF</a>
 
 # 1 Questions and ideas
 
@@ -56,16 +56,16 @@ dd
 ddd
 The general solution of the homogeneous linear equation
 
-$$ 
+$$
 y^{\prime \prime}-\frac{1+x}{x} y^{\prime}+\frac{1}{x} y=0
-$$ 
+$$
 
 
 is
 
-$$ 
+$$
 y(x)=c_{1} e^{x}+c_{2}(1+x),
-$$ 
+$$
 
 
 which shows the explicitly **linear dependence** on the two constants of integration $c_{1}$ and $c_{2} .$ 
@@ -74,30 +74,30 @@ which shows the explicitly **linear dependence** on the two constants of integra
 
 Two nonlinear differential equations which can be routinely solved (see Secs. $1.6$​ and $1.7)$​ are the Riccati equation
 
-$$ 
+$$
 y^{\prime}=\frac{A^{2}}{x^{4}}-y^{2}, \quad A \; \text{is a constant},
-$$ 
+$$
 
 
 whose general solution is **(How to get it?)**
 
-$$ 
+$$
 y(x)=\frac{1}{x}+\frac{A}{x^{2}} \frac{c_{1}-e^{2 A / x}}{c_{1}+e^{2 A / x}}
-$$ 
+$$
 
 
 and the equidimensional equation
 
-$$ 
+$$
 y^{\prime \prime}=y y^{\prime} / x
-$$ 
+$$
 
 
 whose general solution is **(How to get it?)**
 
-$$ 
+$$
 y(x)=2 c_{1} \tan \left(c_{1} \ln x+c_{2}\right)-1
-$$ 
+$$
 
 
 There is a special solution to $(1.1 .9)$​​, namely $y=c_{3}$​​, where $c_{3}$​​ is an arbitrary constant, which cannot be obtained from the general solution in $(1.1 .10)$​​ for any choice of $c_{1}$​​ and $c_{2} .$​​
@@ -121,23 +121,23 @@ For the initial-value problem $y^{\prime}=y^{1 / 3}[y(0)=0]$ it is clear that $F
 
 The general solution of an $n$ th-order homogeneous linear equation
 
-$$ 
+$$
 y^{(n)}+p_{n-1}(x) y^{(n-1)}+\cdots+p_{0}(x) y=0
-$$ 
+$$
 
 
 has the particularly simple form
 
-$$ 
+$$
 y(x)=\sum_{j=1}^{n} c_{j} y_{j}(x)
-$$ 
+$$
 
 
 
 ### 2.3.2 The Wronskian
 There is a simple test for the linear dependence of a set of differentiable functions. The Wronskian $W(x)$ is defined as the determinant
 
-$$ 
+$$
 \begin{aligned}
 W(x) &=W\left[y_{1}(x), y_{2}(x), \ldots, y_{n}(x)\right] \\
 & \equiv \operatorname{det}\left|\begin{array}{cccc}
@@ -146,32 +146,32 @@ y_{1}^{\prime} & y_{2}^{\prime} & \cdots & y_{n}^{\prime} \\
 y_{1}^{(n-1)} & y_{2}^{(n-1)} & \cdots & y_{n}^{(n-1)}
 \end{array}\right|
 \end{aligned}
-$$ 
+$$
 
 
 $W(x)$ vanishes identically over an interval if and only if $\left\{y_{j}(x)\right\}$ is a linearly dependent set of functions (see Prob. 1.5). If $\left\{y_{j}(x)\right\}$ is linearly independent over some interval, then $W(x)$​ does not vanish, except possibly at isolated points.
 
 Homogeneous linear equations have a remarkable property: the Wronskian $W(x)$ of any $n$ solutions of $(1.3 .1)$ satisfies the simple first-order equation
 
-$$ 
+$$
 W^{\prime}(x)=-p_{n-1}(x) W(x)
-$$ 
+$$
 
 
 (For the derivation of this equation, see Prob. 1.7.) The solution of $(1.3 .4)$ is known as Abel's formula:
 
-$$ 
+$$
 W(x)=\exp \left[-\int^{x} p_{n-1}(t) d t\right] .
-$$ 
+$$
 
 
 
 ### 2.3.3 Initial-Value Problems
 
 
-$$ 
+$$
 \operatorname{det}\left[y_{j}^{(i)}\left(x_{0}\right)\right]=W\left(x_{0}\right) \neq 0
-$$ 
+$$
 
 
 
@@ -183,9 +183,9 @@ The Wronskian for the differential equation in Example 2 vanishes only at $x=0$.
 
 The initial-value problem
 
-$$ 
+$$
 y^{\prime \prime}-6 y / x^{2}=0
-$$ 
+$$
 
 
 $\left[y(0)=6, y^{\prime}(0)=6\right]$ is ill posed because the general solution $y(x)=c_{1} x^{3}+c_{2} x^{-2}$ is either infinite or vanishing at $x=0 .$ Abel's formula (1.3.5) tells us that the Wronskian is constant everywhere, including $x=0$, and that this constant does not vanish because $y(x)$ is the general solution. Thus, unfortunately, the nonvanishing of $W(x)$ at $x=x_{0}$ in $(1.2 .1)$ is a necessary but not a sufficient condition for the wellposedness of an initial-value problem. Of course, this initialvalue problem is clearly suspect because the initial conditions are given at a discontinuity of $p_{0}(x) .$
@@ -193,12 +193,12 @@ $\left[y(0)=6, y^{\prime}(0)=6\right]$ is ill posed because the general solution
 ### 2.3.4 Boundary-Value Problems
 
 
-$$ 
+$$
 \operatorname{det}\left|\begin{array}{ll}
 y_{1}^{\prime}\left(x_{0}\right) & y_{2}^{\prime}\left(x_{0}\right) \\
 y_{1}\left(x_{1}\right) & y_{2}\left(x_{1}\right)
 \end{array}\right| \neq 0
-$$ 
+$$
 
 
 
@@ -238,94 +238,94 @@ Method of Dominant Balance
 ## 3.1 Local analysis of $x^{3} y^{\prime \prime}=y$
 
 
-$$ 
+$$
 x^{3} y^{\prime \prime}=y
-$$ 
+$$
 
 
 
 One solution to (3.4.1) exhibits the behavior
 
-$$ 
+$$
 y(x) \sim c_{1} x^{3 / 4} e^{2 x^{-1 / 2}}, \quad x \rightarrow 0+;
-$$ 
+$$
 
 
 the other solution has the behavior
 
-$$ 
+$$
 y(x) \sim c_{2} x^{3 / 4} e^{-2 x^{-1 / 2}}, \quad x \rightarrow 0+\text { . }
-$$ 
+$$
 
 
 At first, we consider the general case
 
-$$ 
+$$
 y^{\prime \prime}+p(x) y^{\prime}+q(x) y=0
-$$ 
+$$
 
 
 near an assumed irregular singular point at $x_{0}$. Substituting $y=e^{S}$ gives
 
-$$ 
+$$
 S^{\prime \prime}+\left(S^{\prime}\right)^{2}+p(x) S^{\prime}+q(x)=0
-$$ 
+$$
 
 
 This equation is just as difficult to solve, but if $x_{0}$ is an irregular singular point, it is usually true that
 
-$$ 
+$$
 S^{\prime \prime} \ll\left(S^{\prime}\right)^{2}, \quad x \rightarrow x_{0}
-$$ 
+$$
 
 
 The asymptotic differential equation
 
-$$ 
+$$
 \left(S^{\prime}\right)^{2} \sim-p(x) S^{\prime}-q(x), \quad x \rightarrow x_{0}.
-$$ 
+$$
 
 
 For current case, $p(x)=0, \; q(x)=x^{-3}$​​​, we have
 
-$$ 
+$$
 \left(S^{\prime}\right)^{2} \sim -x^{-3}, \quad x \rightarrow 0_+.
-$$ 
+$$
 
 
 The two possible solutions are $S^{\prime}(x) \sim \pm x^{-3 / 2}(x \rightarrow 0+)$, and, therefore,
 
-$$ 
+$$
 S(x) \sim \pm 2 x^{-1 / 2}, \quad x \rightarrow 0+
-$$ 
+$$
 
 
 We can improve upon (3.4.11) by estimating the integration function $C(x)$, where
 
-$$ 
+$$
 S(x)=2 x^{-1 / 2}+C(x), \quad C(x) \ll 2 x^{-1 / 2}, \quad x \rightarrow 0+
-$$ 
+$$
 
 
 Substitute it into the original equation, we have
 
-$$ 
+$$
 \frac{3}{2} x^{-5 / 2}+C^{\prime \prime}-2 x^{-3 / 2} C^{\prime}+\left(C^{\prime}\right)^{2}=0
-$$ 
+$$
 
 
 Using asmptotic approximation again, we have
 
-$$ 
+$$
 \frac{3}{2} x^{-5 / 2} \sim 2 x^{-3 / 2} C^{\prime}, \quad x \rightarrow 0+
-$$ 
+$$
 
 
 whose solution is $C \sim \frac{3}{4} \ln x(x \rightarrow 0+)$. Note that differentiating $(3.4 .13)$ gives $C^{\prime \prime} \sim-\frac{3}{4} x^{-2}$ $(x \rightarrow 0+)$, so $C^{\prime \prime} \ll x^{-5 / 2}(x \rightarrow 0+)$ as assumed. Substituting $C(x)$ into $(3.4 .12)$ gives
 
-$$ 
+$$
 S(x)=2 x^{-1 / 2}+\frac{3}{4} \ln x+D(x)
-$$ 
+$$
 
 
 Step by step, we can get higher order results.
@@ -368,17 +368,17 @@ Condition: Potential function varies very slow comparing the variation of the wa
 
 The essential idea is as follows: Imagine a particle of energy $E$ moving through a region where the potential $V(x)$ is constant. If $E>V$, the wave function is of the form
 
-$$ 
+$$
 \psi(x)=A e^{\pm i k x}, \quad \text { with } k \equiv \sqrt{2 m(E-V)} / \hbar
-$$ 
+$$
 
 
 we define two length scales, the $\lambda_1$​ and the $\lambda_2$. The $\lambda_1$ is the wave length of wave function and $\lambda_2$​ is the wave length of $V(x)$
 
-$$ 
+$$
 \lambda_1 = \frac{2\pi}{k} = \hbar / \sqrt{2 m(E-V)} \\
 \lambda_2 = 
-$$ 
+$$
 
 
 
@@ -391,93 +391,93 @@ Basic idea: 设想 $V(x)$​不是一个常量， 但是变化相比 $\lambda$�
 
 The Schrödinger equation,
 
-$$ 
+$$
 -\frac{\hbar^{2}}{2 m} \frac{d^{2} \psi}{d x^{2}}+V(x) \psi=E \psi
-$$ 
+$$
 
 
 can be rewritten in the following way:
 
-$$ 
+$$
 \frac{d^{2} \psi}{d x^{2}}=-\frac{p^{2}}{\hbar^{2}} \psi
-$$ 
+$$
 
 
 where
 
-$$ 
+$$
 p(x) \equiv \sqrt{2 m[E-V(x)]}
-$$ 
+$$
 
 
 Based on the basic idea, we assume that the solution keeps the same harmonic form but the amplitude and phase are dependent on the position coordinate, so that we have
 
-$$ 
+$$
 \psi(x)=A(x) e^{i \phi(x)}
-$$ 
+$$
 
 
 In the following derivation, the target is to obtain the function $A(x)$ and $\phi(x)$​. Using a prime to denote the derivative with respect to $x$, we find:
 
-$$ 
+$$
 \frac{d \psi}{d x}=\left(A^{\prime}+i A \phi^{\prime}\right) e^{i \phi}
-$$ 
+$$
 
 
 and
 
-$$ 
+$$
 \frac{d^{2} \psi}{d x^{2}}=\left[A^{\prime \prime}+2 i A^{\prime} \phi^{\prime}+i A \phi^{\prime \prime}-A\left(\phi^{\prime}\right)^{2}\right] e^{i \phi}
-$$ 
+$$
 
 
 Putting this into Eq. (2):
 
-$$ 
+$$
 A^{\prime \prime}+2 i A^{\prime} \phi^{\prime}+i A \phi^{\prime \prime}-A\left(\phi^{\prime}\right)^{2}=-\frac{p^{2}}{\hbar^{2}} A
-$$ 
+$$
 
 
 This is equivalent to two real equations, one for the real part and one for the imaginary part:
 
-$$ 
+$$
 A^{\prime \prime}-A\left(\phi^{\prime}\right)^{2}=-\frac{p^{2}}{\hbar^{2}} A, \quad \text { or } \quad A^{\prime \prime}=A\left[\left(\phi^{\prime}\right)^{2}-\frac{p^{2}}{\hbar^{2}}\right]
-$$ 
+$$
 
 
 and
 
-$$ 
+$$
 2 A^{\prime} \phi^{\prime}+A \phi^{\prime \prime}=0 . \quad \text { or } \quad\left(A^{2} \phi^{\prime}\right)^{\prime}=0
-$$ 
+$$
 
 
 For Eq. (15), the solution is obvious and it is
 
-$$ 
+$$
 A^{2} \phi^{\prime}=C^{2} . \quad \text { or } \quad A=\frac{C}{\sqrt{\phi^{\prime}}},
-$$ 
+$$
 
 
 Neglecting $A''$​​​​ in Eq. (14), this is an assumption, we have 
 
-$$ 
+$$
 \left(\phi^{\prime}\right)^{2}=\frac{p^{2}}{\hbar^{2}}, \quad \text { or } \quad \frac{d \phi}{d x}=\pm \frac{p}{\hbar}
-$$ 
+$$
 
 
 and therefore
 
-$$ 
+$$
 \phi(x)=\pm \frac{1}{\hbar} \int p(x) d x
-$$ 
+$$
 
 
 (I'll write this as an indefinite integral, for now-any constants can be absorbed into $C$, which may thereby become complex.) It follows that
 
-$$ 
+$$
 \boxed{ \psi(x) \cong \frac{C}{\sqrt{p(x)}} e^{\pm \frac{i}{\hbar} \int p(x) d x} }
-$$ 
+$$
 
 
 and the general (approximate) solution will be a linear combination of two such terms, one with each sign.
@@ -486,50 +486,50 @@ and the general (approximate) solution will be a linear combination of two such 
 
 Problem $8.2$​ An illuminating alternative derivation of the WKB formula (Eq. (13)) is based on an expansion in powers of $\hbar$​. Motivated by the freeparticle wave function, $\psi=A \exp (\pm i p x / \hbar)$​, we write
 
-$$ 
+$$
 \psi(x)=e^{i f(x) / \hbar}
-$$ 
+$$
 
 
 where $f(x)$ is some complex function. (Note that there is no loss of generality here-any nonzero function can be written in this way.)
 
 (a) Put this into Schrödinger's equation, Eq. (2), and show that
 
-$$ 
+$$
 \frac{d\psi}{dx} = \frac{i}{\hbar}f'e^{i f(x) / \hbar} \\
 \frac{d^2\psi}{dx^2} = \left(\frac{i}{\hbar}f''-\frac{1}{\hbar^2}f'^2\right)e^{i f(x) / \hbar} \\
 i \hbar f^{\prime \prime}-\left(f^{\prime}\right)^{2}+p^{2}=0
-$$ 
+$$
 
 
 (b) Write $f(x)$ as a power series in $\hbar$ :
 
-$$ 
+$$
 f(x)=f_{0}(x)+\hbar f_{1}(x)+\hbar^{2} f_{2}(x)+\cdots
-$$ 
+$$
 
 
 and, collecting like powers of $\hbar$, show that
 
-$$ 
+$$
 \left(f_{0}^{\prime}\right)^{2}=p^{2}, \quad i f_{0}^{\prime \prime}=2 f_{0}^{\prime} f_{1}^{\prime}, \quad i f_{1}^{\prime \prime}=2 f_{0}^{\prime} f_{2}^{\prime}+\left(f_{1}^{\prime}\right)^{2}, \quad \text { etc. }
-$$ 
+$$
 
 
 (c) Solve for $f_{0}(x)$​ and $f_{1}(x)$​, and show that $-$​ to first order in $\hbar-$​ you recover Eq. (13). 
 
-$$ 
+$$
 \frac{d f_0}{d x}=\pm \frac{p}{\hbar} \quad \text{or} \quad f_0(x)=\pm \frac{1}{\hbar} \int p(x) d x \\
 i\frac{1}{\hbar} \frac{d p}{d x} = 2 \frac{p}{\hbar} \frac{d f_1}{d x} \quad \text{or} \quad f_1 = \frac{i}{2}\ln(p) + C
-$$ 
+$$
 
 
 Finally, we have
 
-$$ 
+$$
 \psi(x)=e^{i f(x) / \hbar} = e^{i f_0(x) / \hbar + i f_1(x)} 
 = \frac{C}{\sqrt{p(x)}}e^{i \pm \frac{1}{\hbar} \int p(x) d x / \hbar}
-$$ 
+$$
 
 
 
@@ -556,9 +556,9 @@ The limitation of conventional WKB techniques is that they are only useful for l
 ### 6.2.1 Example 1 Approximate solution to a Schrödinger equation.
 A second-order homogeneous linear differential equation is in Schrödinger form if the $y^{\prime}$​ term is absent. The approximate solutions to the Schrödinger equation
 
-$$ 
+$$
 \varepsilon^{2} y^{\prime \prime}=Q(x) y, \quad Q(x) \neq 0
-$$ 
+$$
 
 
 are easy to find using WKB analysis when $\varepsilon$​ is small. 
@@ -575,9 +575,9 @@ To solve the initial-value problem $\varepsilon^{2} y^{\prime \prime}=Q(x) y, \;
 
 Here we show that the WKB approximation contains boundary-layer theory as a special case. Consider the familiar boundaryvalue problem
 
-$$ 
+$$
 \varepsilon y^{\prime \prime}+a(x) y^{\prime}+b(x) y=0, \quad y(0)=A, y(1)=B
-$$ 
+$$
 
 
 where we assume that $a(x)>0$ for $0 \leq x \leq 1$ and $\varepsilon \rightarrow 0+$.
@@ -586,9 +586,9 @@ where we assume that $a(x)>0$ for $0 \leq x \leq 1$ and $\varepsilon \rightarrow
 
 We know from our discussion of the Sturm-Liouville eigenvalue problem in Sec. $1.8$ that the boundary-value problem
 
-$$ 
+$$
 y^{\prime \prime}(x)+E Q(x) y(x)=0, \quad Q(x)>0, y(0)=y(\pi)=0
-$$ 
+$$
 
 
 can be solved by WKB method for high order eigenvalues or eigenfunctions.
@@ -597,21 +597,21 @@ can be solved by WKB method for high order eigenvalues or eigenfunctions.
 
 Condition 1
 
-$$ 
+$$
 \begin{aligned}
 S_{1}(x) & \ll \frac{1}{\delta} S_{0}(x), & & \delta \rightarrow 0 \\
 \delta S_{2}(x) & \ll S_{1}(x), & & \delta \rightarrow 0 \\
 & \vdots & \\
 \delta^{n} S_{n+1}(x) & \ll \delta^{n-1} S_{n}(x), & & \delta \rightarrow 0
 \end{aligned}
-$$ 
+$$
 
 
 Condition 2
 
-$$ 
+$$
 \delta^{N} S_{N+1}(x) \ll 1, \quad \delta \rightarrow 0
-$$ 
+$$
 
 
 
