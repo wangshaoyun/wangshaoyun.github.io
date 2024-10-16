@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scherieffer Wolff Transformation
+title: Rayleigh-Ritz method
 category: Mechanics
 tags: Mechanics
 ---
