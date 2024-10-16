@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Scherieffer Wolff Transformation
-category: Physics
-tags: Physics
+category: Mechanics
+tags: Mechanics
 ---
 
 <a href="/assets/notes/2024-10-16-Rayleigh-Ritz method.pdf">PDF</a>
