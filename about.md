@@ -14,4 +14,10 @@ subtitle:   <h3>Download My CV</h3>
 css: ['about.css']
 ---
 
+# Education
+
+I am Shaoyun Wang, currently pursuing a PhD in Mechanical Engineering at the University of Missouri, specializing in wave propagation in elastic time-varying media. My academic journey is deeply rooted in both theoretical physics and engineering mechanics, with my research encompassing areas such as topological physics, non-Hermitian lattices, and active metamaterials. I have substantial experience in developing advanced theoretical frameworks, conducting simulations, and applying numerical methods like FEA to study soft materials and electronics. My work has been recognized through multiple publications and presentations at prestigious conferences, reflecting my passion for innovation and scientific discovery.
+
+
+
 {% include about.html %}
