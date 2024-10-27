@@ -134,13 +134,13 @@ $$
 
 Since this method is the first order degenerate perturbation theory, so the error exhibit $\mathcal{O}(h^2)$. 
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/untitled.jpeg" style="zoom:30%;" /> | <img src="https://raw.github.com/wangshaoyun/image/master/untitled123.png" style="zoom:30%;" /> |
-| :-------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/untitled.jpeg" style="zoom:30%;" /> | <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/untitled123.png" style="zoom:30%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Fig. 1. Frequency spectrum for $k_1 = k_2 = 10, h=1, m_1 = m_2 = M_1 = M_2 = 1$. (a) Black lines are from exact solution Eq. (3), and red dash lines are from first degerate perturbation theory. (b) The error is propotional to $h^2$.
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/202206062336121.png" style="zoom:30%;" /> | <img src="https://raw.github.com/wangshaoyun/image/master/202206062336918.png" style="zoom:30%;" /> |
-| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206062336121.png" style="zoom:30%;" /> | <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206062336918.png" style="zoom:30%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Fig. 2. Frequency spectrum for $k_1 =10, k_2 = 15, h=1, m_1 = m_2 = M_1 = M_2 = 1$. (a) Black lines are from exact solution Eq. (3), and red dash lines are from first degerate perturbation theory. (b) The error is propotional to $h^2$.
 
@@ -217,8 +217,8 @@ $$
 
 
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/202206062342146.png" style="zoom:30%;" /> | <img src="https://raw.github.com/wangshaoyun/image/master/202206062342530.png" style="zoom:30%;" /> |
-| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206062342146.png" style="zoom:30%;" /> | <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206062342530.png" style="zoom:30%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Fig. 3. Frequency spectrum for (a) $k_1 = k_2 = 10, h=1, m_1 = m_2 = M_1 = M_2 = 1$. and (b) $k_1 =10, k_2 = 15, h=1, m_1 = m_2 = M_1 = M_2 = 1$. Black lines are from Eq. (3) and red dash lines are from Eq. (13).
 
@@ -380,13 +380,13 @@ $$
 
 
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/202206071210418.png" style="zoom:30%;" /> | <img src="https://raw.github.com/wangshaoyun/image/master/202206071210268.png" style="zoom:30%;" /> |
-| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206071210418.png" style="zoom:30%;" /> | <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206071210268.png" style="zoom:30%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Fig. 4. Frequency spectrum for $k_1 = k_2 = 10, h=1, m_1 = m_2 = M_1 = M_2 = 1$. (a) Black lines are from exact solution Eq. (3), and red dash lines are from SW transformation. (b) The error is propotional to $h^3$.
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/202206071211868.png" style="zoom:30%;" /> | <img src="https://raw.github.com/wangshaoyun/image/master/202206071212583.png" style="zoom:30%;" /> |
-| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206071211868.png" style="zoom:30%;" /> | <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/202206071212583.png" style="zoom:30%;" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Fig. 5. Frequency spectrum for $k_1 =10, k_2 = 15, h=1, m_1 = m_2 = M_1 = M_2 = 1$. (a) Black lines are from exact solution Eq. (3), and red dash lines are from SW transformation. (b) The error is propotional to $h^3$.
 

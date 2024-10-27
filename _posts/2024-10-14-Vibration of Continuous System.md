@@ -30,7 +30,7 @@ $$
 $$
 
 
-| <img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.17.41.png" style="zoom:22%;" /><img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.18.24.png" style="zoom:22%;" /> |
+| <img src="https://raw.githubusercontent.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.17.41.png" style="zoom:22%;" /><img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2017.18.24.png" style="zoom:22%;" /> |
 | :----------------------------------------------------------: |
 |                                                              |
 
@@ -63,7 +63,7 @@ $$
 \omega=\left(\beta_{1} l\right)^{2}\left(\frac{E I}{\rho A l^{4}}\right)^{1 / 2}=\pi^{2}\left(\frac{E I}{\rho A L^{4}}\right)^{1 / 2}.
 $$
 
-<img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2021.30.45.png" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2021.30.45.png" style="zoom:50%;" />
 
 ## 2.3 Torsional Vibration of Shafts
 
@@ -93,7 +93,7 @@ $$
 
 where 
 
-<img src="https://raw.github.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2019.47.24.png" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/wangshaoyun/image/master/Screen%20Shot%202022-01-02%20at%2019.47.24.png" style="zoom:30%;" />
 
 ## 2.4 Shear vibration
 
