@@ -9,7 +9,7 @@ menu: publications
 
 1. **Wang, S.**, Shao, N., Chen, H., Chen, J., Qian, H., Wu, Q., ... & Huang, G. (2025). [Temporal refraction and reflection in modulated mechanical metabeams: theory and physical observation](https://arxiv.org/abs/2501.09989). *arXiv preprint arXiv:2501.09989*. <a href="/assets/files/2025NC.pdf">pdf</a>. (Revising manuscript after reviewer comments in Nature Communications) 
 2. **Wang, S.** & Huang, G. Effective Medium Theory for Nonlocal Non-Hermitian Willis Metabeams. <a href="/assets/files/2025Willis.pdf">pdf</a>. (To be submitted)
-3. Wang, S., Cao, Z., Wu, Q., Chen, J., Cai, Y., **Wang, S.**, & Huang, G. [Dissipative Locally Resonant Metasurfaces for Low-Frequency Rayleigh Wave Mitigation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5056361). *Available at SSRN 5056361*. <a href="/assets/files/2025SAW.pdf">pdf</a> (Revising manuscript after reviewer comments in International Journal of Mechanical Science) 
+3. Wang, S., Cao, Z., Wu, Q., Chen, J., Cai, Y., **Wang, S.***, & Huang, G. [Dissipative Locally Resonant Metasurfaces for Low-Frequency Rayleigh Wave Mitigation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5056361). *Available at SSRN 5056361*. <a href="/assets/files/2025SAW.pdf">pdf</a> (Revising manuscript after reviewer comments in International Journal of Mechanical Science) 
 
 ## 2024
 
