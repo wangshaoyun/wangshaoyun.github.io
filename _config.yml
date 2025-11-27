@@ -77,10 +77,6 @@ navs:
     href: /about
     label: About
 
-  -
-    href: /blog1
-    label: Blog
-
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
 
