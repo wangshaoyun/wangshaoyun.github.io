@@ -5,11 +5,20 @@ subtitle: <span class="mega-octicon octicon-repo"></span>&nbsp;&nbsp; Shaoyun's 
 menu: publications
 ---
 
+## 2026
+
+1. Qian, H., Chen, J., **Wang, S.**, Shao, N., Wu, Q., \& Huang, G. (2026). Non-Hermitian topological enhanced electromechanical impedance method for ultrasensitive damage detection. *International Journal of Mechanical Sciences*, 111639.
+
+2. **Wang, S.**, Qian, H., Chen, J., Shao, N., Cheng, W., Jiang, H., ... \& Huang, G. (2026). Dynamic Willis-framework homogenization for metabeams with active scatterers. *Journal of the Mechanics and Physics of Solids*, 106548.
+3. Cheng, W., Qian, H., **Wang, S.**, Yang, F., Wang, Q., Zhu, R., ... \& Huang, G. (2026). Elastodynamics of two-dimensional odd mechanical media: Theory, homogenization and wave characterization. *Journal of the Mechanics and Physics of Solids*, 106502.
+
 ## 2025
 
-1. **Wang, S.**, Shao, N., Chen, H., Chen, J., Qian, H., Wu, Q., ... & Huang, G. (2025). [Temporal refraction and reflection in modulated mechanical metabeams: theory and physical observation](https://arxiv.org/abs/2501.09989). *arXiv preprint arXiv:2501.09989*. <a href="/assets/files/2025NC.pdf">pdf</a>. (R&R at Nature Communications) 
-2. **Wang, S.** & Huang, G. Effective Medium Theory for Nonlocal Non-Hermitian Willis Metabeams. <a href="/assets/files/2025Willis.pdf">pdf</a>. (To be submitted)
-3. Wang, S., Cao, Z., **Wang, S.***, Wu, Q., Chen, J., Cai, Y., & Huang, G. (2025). [Dissipative Locally Resonant Metasurfaces for Low-Frequency Rayleigh Wave Mitigation](https://doi.org/10.1016/j.ijmecsci.2025.110233). *International Journal of Mechanical Sciences*, 110233. <a href="/assets/files/2025SAW.pdf">pdf</a>.
+1. **Wang, S.**, Shao, N., Chen, H., Chen, J., Qian, H., Wu, Q., ... \& Huang, G. (2025). Experimental realization of temporal refraction and reflection in elastic beams. *Nature Communications*, *16*(1), 9520.
+2. Wang, S., Cao, Z., **Wang, S.**, Wu, Q., Chen, J., Cai, Y., & Huang, G. (2025). [Dissipative Locally Resonant Metasurfaces for Low-Frequency Rayleigh Wave Mitigation](https://doi.org/10.1016/j.ijmecsci.2025.110233). *International Journal of Mechanical Sciences*, 110233. <a href="/assets/files/2025SAW.pdf">pdf</a>.
+3. Qian, H., Chen, J., **Wang, S.**, Shao, N., Liu, K., & Huang, G. (2026). Non‐Hermitian Elastic Metabeams with Nonlinear and Nonlocal Coupling: Physical Realization and Topological Wave Manipulation. *Advanced Functional Materials*, *36*(17), e18194.
+4. **Wang, S.**, \& Huang, G. (2025). Exploring non-Hermitian wave dynamics in odd elastic metamaterials. *Journal of Intelligent Material Systems and Structures*, *36*(18-19), 1281-1284.
+5. Yang, T., Wu, Q., **Wang, S.**, Wei, R., Liu, Y., Wang, Q., ... \& Huang, G. (2025). Observation of multi-type corner states in right-angled trapezoidal sonic crystals. *International Journal of Mechanical Sciences*, *293*, 110144.
 
 ## 2024
 
