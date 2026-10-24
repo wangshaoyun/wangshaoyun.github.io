@@ -49,11 +49,15 @@ BibTeX 下载目前是由旧站元数据生成的最小引用（标题、年份�
 - 旧研究经历、教学经历等完整信息仍保留在原站；新版 About 先选取核心经历，未填充不确定的“至今”日期。
 - 未添加虚构新闻、研究贡献或出版状态。
 
-## GitHub 发布（尚未启用）
+## GitHub 发布
 
 `.github/workflows/deploy.yml` 对应原仓库的 `master` 分支。Pull request 自动构建并检查本地链接；合并到 master 后自动部署。
 本目录已连接原仓库 `https://github.com/wangshaoyun/wangshaoyun.github.io.git`，并保留旧站快照分支 `legacy-jekyll-2026-10-24`。原本地目录仍独立保留。
-在目标仓库的 Settings → Pages 选择 GitHub Actions 后，推送 master 将自动安装、构建和部署。用户主页继续使用 wangshaoyun.github.io。测试项目仓库需先在 astro.config.mjs 设置对应 base 路径，并调整根相对链接；当前配置针对根域名用户主页，不适合直接部署到子路径。
+目标仓库的 Settings → Pages 已选择 GitHub Actions。推送 master 将自动安装、构建、检查内部链接（包括文件名大小写）并部署；检查失败时不会替换线上网站。用户主页继续使用 https://wangshaoyun.github.io/ 。
+
+以后维护请使用本目录 `/Users/wang/Documents/GitHub/website`，而不是旧站目录。在 GitHub Desktop 中确认当前仓库路径和 `master` 分支，修改内容后填写更新说明、提交，再点击 Push origin。发布进度可在 GitHub 仓库的 Actions 页面查看。旧站备份分支只用于恢复，不用于日常更新。
+
+测试项目仓库需先在 astro.config.mjs 设置对应 base 路径，并调整根相对链接；当前配置针对根域名用户主页，不适合直接部署到子路径。
 
 旧笔记地址对应的跳转页保存在 `src/data/redirects.json`。原 PDF 路径保留。迁移脚本仅首次导入使用，再次运行会拒绝覆盖论文库，以保护后续手工更新。
 
