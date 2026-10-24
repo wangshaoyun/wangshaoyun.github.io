@@ -1,0 +1,11 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import NoteList from '../../../components/NoteList.astro';
+import NoteArt from '../../../components/NoteArt.astro';
+import {topics} from '../../../data/note-topics';
+export function getStaticPaths(){return topics.map(topic=>({params:{topic:topic.slug},props:{topic}}))}
+const {topic}=Astro.props;
+const modules=import.meta.glob('../../../content/notes/*.md',{eager:true});
+const notes=Object.entries(modules).map(([path,m]:[string,any])=>({slug:path.split('/').pop()!.replace('.md',''),...m.frontmatter})).filter(n=>topic.categories.includes(n.category)).sort((a,b)=>b.date.localeCompare(a.date));
+---
+<Layout title={topic.title+' — Notes — Shaoyun Wang'}><section class="wrap topic-heading" style={'--topic-color:'+topic.color}><div><a class="text-link" href="/notes/">← All subjects</a><div class="eyebrow">RESEARCH NOTEBOOK / {notes.length} {notes.length===1?'NOTE':'NOTES'}</div><h1>{topic.title}</h1><p>{topic.description}</p></div><div class="topic-heading-art"><NoteArt kind={topic.art}/></div></section><section class="wrap notes-section"><NoteList notes={notes}/></section></Layout>

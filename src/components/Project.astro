@@ -1,0 +1,6 @@
+---
+import papers from '../data/publications.json';
+const {project:p,index=0}=Astro.props;
+const paper=papers.find(x=>x.title.toLowerCase().includes(p.match.toLowerCase()));
+---
+<article class="project" id={p.slug}><a class="project-image" href={paper?.url||'/publications/'} aria-label={p.title}><img src={'/assets/images/'+p.image} alt={p.title+' — research figure'} loading="lazy"/></a><div class="project-copy"><span class="eyebrow">{String(index+1).padStart(2,'0')} / {p.category}</span><h3>{p.title}</h3><p>{p.summary}</p>{paper && <a class="text-link" href={paper.url}>{paper.venue.split(',')[0]} <span>↗</span></a>}</div></article>

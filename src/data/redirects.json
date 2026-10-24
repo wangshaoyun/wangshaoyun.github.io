@@ -1,0 +1,42 @@
+[
+  {
+    "from": "/comsol/2020/03/25/Comsol_Wave_in_Beam.html",
+    "to": "/notes/Comsol_Wave_in_Beam/"
+  },
+  {
+    "from": "/guides/2020/03/28/markdown-cheatsheet.html",
+    "to": "/notes/markdown-cheatsheet/"
+  },
+  {
+    "from": "/mechanics/2020/04/04/Transformation_of_elastic_constants.html",
+    "to": "/notes/Transformation_of_elastic_constants/"
+  },
+  {
+    "from": "/mechanics/2021/06/06/Continuous_condition.html",
+    "to": "/notes/Continuous_condition/"
+  },
+  {
+    "from": "/mathematics/2024/10/12/Perturbation_method.html",
+    "to": "/notes/Perturbation_method/"
+  },
+  {
+    "from": "/mechanics/2024/10/13/Beams-with-circuit.html",
+    "to": "/notes/Beams-with-circuit/"
+  },
+  {
+    "from": "/mechanics/2024/10/14/Vibration-of-Continuous-System.html",
+    "to": "/notes/Vibration-of-Continuous-System/"
+  },
+  {
+    "from": "/physics/2024/10/15/Scherieffer_Wolff.html",
+    "to": "/notes/Scherieffer_Wolff/"
+  },
+  {
+    "from": "/mechanics/2024/10/16/Rayleigh-Ritz-method.html",
+    "to": "/notes/Rayleigh-Ritz-method/"
+  },
+  {
+    "from": "/physics/2024/10/16/Tight-binding-model.html",
+    "to": "/notes/Tight-binding-model/"
+  }
+]

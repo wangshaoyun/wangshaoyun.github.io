@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NoteArt from '../../components/NoteArt.astro';
+import NoteList from '../../components/NoteList.astro';
+import {topics} from '../../data/note-topics';
+const modules=import.meta.glob('../../content/notes/*.md',{eager:true});
+const notes=Object.entries(modules).map(([path,m]:[string,any])=>({slug:path.split('/').pop()!.replace('.md',''),...m.frontmatter})).sort((a,b)=>b.date.localeCompare(a.date));
+const categories=[...new Set(notes.map(n=>n.category))];
+---
+<Layout title="Notes — Shaoyun Wang"><section class="wrap page-heading"><span class="eyebrow">AN OPEN RESEARCH NOTEBOOK</span><h1>Notes & methods</h1><p>Explore by subject: physical ideas, mechanical systems, and the methods behind the research.</p></section><section class="wrap topic-grid" aria-label="Browse notes by subject">{topics.map(t=>{const count=notes.filter(n=>t.categories.includes(n.category)).length;return <a class="topic-card" href={'/notes/topics/'+t.slug+'/'} style={'--topic-color:'+t.color}><div class="topic-illustration"><NoteArt kind={t.art}/></div><div class="topic-copy"><div class="topic-meta"><span>{count} {count===1?'NOTE':'NOTES'}</span><span aria-hidden="true">↗</span></div><h2>{t.title}</h2><p>{t.description}</p></div></a>})}</section><section class="wrap notes-section" id="all-notes"><div class="section-heading"><div><span class="eyebrow">THE COMPLETE NOTEBOOK</span><h2>All notes</h2></div></div><div class="filters"><label class="year-select">Topic <select id="topic"><option value="all">All topics</option>{categories.map(c=><option>{c}</option>)}</select></label><label class="search-label"><span class="sr-only">Search notes</span><input id="note-search" type="search" placeholder="Find a note…"/></label></div><NoteList notes={notes}/><p id="note-empty" hidden aria-live="polite">No notes match your search.</p></section></Layout>
+<script>
+const topic=document.querySelector<HTMLSelectElement>('#topic')!,search=document.querySelector<HTMLInputElement>('#note-search')!;function filter(){let n=0;document.querySelectorAll<HTMLElement>('.note-row').forEach(row=>{row.hidden=!((topic.value==='all'||row.dataset.category===topic.value)&&row.dataset.search!.includes(search.value.toLowerCase()));if(!row.hidden)n++});document.querySelector<HTMLElement>('#note-empty')!.hidden=n>0;}topic.addEventListener('change',filter);search.addEventListener('input',filter);
+</script>

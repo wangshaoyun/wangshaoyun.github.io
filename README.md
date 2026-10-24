@@ -1,139 +1,64 @@
-# Yummy Jekyll Theme
+# Shaoyun Wang · Academic website
 
-A Simple, Bootstrap Based Theme. Especially for developers who like to show their projects on website and like to take notes. There are also some magical features to discover. 
+Astro 静态学术网站。新版位于本目录，旧网站 `/Users/wang/Documents/GitHub/wangshaoyun.github.io` 未修改。
 
-## [Live Demo](http://dongchuan.github.io/)
+## 本地预览
 
-Open issues if you find bugs or even have trouble installing jekyll or dependencies. :D
+需要 Node.js 22.12+（也支持 Astro 要求的其他版本）。本机 `/usr/local/bin/node` 很旧，请使用应用提供的运行环境：
 
-Or contact: dongchuan55@gmail.com
-
-> Strongly suggest to fork and change project name to create your GitHub Pages instead of downloading it directly. Because in the future, I will develop many funny modules like 'footprint' to show your world wide trip. Could be easier to merge new features in the future.
-
-## Notable Features
-
-* Compatible with Jekyll 3.x and GitHub Pages
-* Based on Bootstrap
-* [Github Module](http://dongchuan.github.io/open-source) to show your popular projects in a single page and on sidebar automatically. (Datas are retreived by github metadata instead of by api calls, so no delay) 
-* [Post Module](http://dongchuan.github.io/blog) to show all your posts with timeline
-* [Bookmark Module](http://dongchuan.github.io/bookmark) to establish a quick mark about all libs/tools/books you like to use.
-* [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html) to generat a quick directory of your post by titles/subtitles automatically.
-* Support [Disqus Comment](https://disqus.com/home/explore/)
-* Support [Google Analytics](https://analytics.google.com/analytics/web/)
-
-Features in future:
-* A Footprint module to show all your travel around the world
-* Feature to share. (Facebook, twitter, evernote and so on)
-* (Not sure) A embeded todo list. (Not sure) to travel, to complete, to do for your parents, etc. To do in life!
-* Creative ideas to discuss with you :P
-
-## Install and setup
-
-Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bundler.io/) on your local to install dependencies.
-
-1. Fork code and clone
-2. Run `bower install` to install all dependencies in [bower.json](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/bower.json)
-3. Run `bundle install` to install all dependencies in [Gemfile](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/Gemfile)
-4. Update `_config.yml` with your own settings.
-5. Add posts in `/_posts`
-6. Commit to your own Username.github.io repository.
-7. Then come back to star this theme!
-
-> When install dependencies by bundler or gem, you may have some errors depending on your environment.
-
-> Error about `json`. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
-  
-> Error about `jekyll-paginate`. Please check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
-
-> Error about `SSL_connect`. Please check [here](http://stackoverflow.com/questions/15305350/gem-install-fails-with-openssl-failure) and [here](http://railsapps.github.io/openssl-certificate-verify-failed.html)
-
-> For the moment, when you test on your local, you need to keep internet connection. Bug will be fixed soon.
-
-## How to use
-
-#### Create a new post
-
-Create a `.md` file inside `_posts` folder.
-
-Name the file according to the standard jekyll format.
-
-```
-2016-01-19-i-love-yummy.md
+```sh
+export PATH="/Users/wang/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:$PATH"
+ASTRO_TELEMETRY_DISABLED=1 node node_modules/astro/astro.js dev --host 127.0.0.1
 ```
 
-Write the Front Matter and content in the file.
+打开终端显示的本地地址，默认 http://localhost:4321 。停止后可以运行上述命令重新打开。
 
-```
----
-layout: post
-title: Post title
-category: Category
-tags: [tag1, tag2]
----
+```sh
+npm install
+npm run dev
+npm run build
 ```
 
-Please find examples [here](https://github.com/DONGChuan/DONGChuan.github.io/tree/master/_posts)
+上述 npm 命令适用于已配置现代 Node.js/npm 的环境。生产静态文件生成在 `dist/`。
 
-> Jekyll supports different structure of repository. You could just create as many folders as you want under _posts. Then jekyll will look through all folders/subfolders to find your posts. So cool, right? :D
+## 如何维护
 
-#### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
+| 内容 | 文件 |
+| --- | --- |
+| 职位、单位、简介、邮箱、CV、学术链接 | `src/data/profile.json` |
+| 论文列表 | `src/data/publications.json` |
+| 研究项目及首页选中项目 | `src/data/projects.json` |
+| 笔记 | `src/content/notes/*.md` |
+| Notes 主题卡片、分类归属和说明 | `src/data/note-topics.ts` |
+| PDF、照片与科研图 | `public/assets/` |
+| 配色、字体和排版 | `src/styles/global.css` |
 
-When writing post, please always follow this format:
+添加论文：复制一条论文记录，使用唯一 id，填写 year、title、authors、venue、url、pdf。selected 控制代表作筛选。首页最近论文取列表前四条；保持记录按年份倒序。项目通过 match 对应论文标题，请使用唯一且稳定的标题片段。
 
-```
-Description about this post, blablabla
+添加笔记：新建 Markdown 文件，开头填写 title、date（YYYY-MM-DD 字符串）和 category。主题卡片会根据 category 自动统计数量，并链接到各自的主题页面；新增类别时在 note-topics.ts 中设置归属。支持 `$...$`、`$$...$$`、代码块、图片和 PDF 链接，公式在构建时排版，无需远程 MathJax。已有笔记保留原文。
 
-## Title A
+BibTeX 下载目前是由旧站元数据生成的最小引用（标题、年份、URL 和可提取的 DOI），不是出版社完整引用。投稿前应从 DOI/出版社获取完整 BibTeX；旧作者字符串有省略号，未自动推断完整作者。
 
-### Title A-1
+## 内容核对
 
-### Title A-2
+- 当前职位及联系信息来自旧站本地文件，发布前确认仍然有效。
+- 旧个人经历的博士时间仍为“Expected July 2025”；新版未猜测实际毕业日期。
+- 论文按旧站分组年份迁移。旧站 2025 分组中有一篇文献标注 2026，2015 分组中有文献标注 2016，需人工确认。
+- 旧研究项目和论文链接有过期 PDF 文件名；已使用实际存在的论文路径。旧笔记自身若有缺失附件会在校验报告中列出。
+- 既有 CV 原样复制，不保证内容已更新。
+- 旧研究经历、教学经历等完整信息仍保留在原站；新版 About 先选取核心经历，未填充不确定的“至今”日期。
+- 未添加虚构新闻、研究贡献或出版状态。
 
-## Title B
+## GitHub 发布
 
-### Title B-1
+`.github/workflows/deploy.yml` 对应原仓库的 `master` 分支。Pull request 自动构建并检查本地链接；合并到 master 后自动部署。
+本目录已连接原仓库 `https://github.com/wangshaoyun/wangshaoyun.github.io.git`，并保留旧站快照分支 `legacy-jekyll-2026-10-24`。原本地目录仍独立保留。
+目标仓库的 Settings → Pages 已选择 GitHub Actions。推送 master 将自动安装、构建、检查内部链接（包括文件名大小写）并部署；检查失败时不会替换线上网站。用户主页继续使用 https://wangshaoyun.github.io/ 。
 
-```
+以后维护请使用本目录 `/Users/wang/Documents/GitHub/website`，而不是旧站目录。在 GitHub Desktop 中确认当前仓库路径和 `master` 分支，修改内容后填写更新说明、提交，再点击 Push origin。发布进度可在 GitHub 仓库的 Actions 页面查看。旧站备份分支只用于恢复，不用于日常更新。
 
-So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
+测试项目仓库需先在 astro.config.mjs 设置对应 base 路径，并调整根相对链接；当前配置针对根域名用户主页，不适合直接部署到子路径。
 
-For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
+旧笔记地址对应的跳转页保存在 `src/data/redirects.json`。原 PDF 路径保留。迁移脚本仅首次导入使用，再次运行会拒绝覆盖论文库，以保护后续手工更新。
 
-But if you do not like it or your post is quite short. You want to hide this navigation to make your post occupy your full screen. You just need to set **no-post-nav:true** in the Front Matter of the post where you want to hide this feature :D
-
-#### [Github Module](http://dongchuan.github.io/open-source)
-
-This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
-In the future, it will also show the repositories you contributed a lot and the ones of your organization.
-
-#### [Bookmark Module](http://dongchuan.github.io/bookmark)
-
-To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
-
-#### [Customize About Page](http://dongchuan.github.io/about)
-
-Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/about.md) and [about.html](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/_includes/about.html)
-
-## ToDo
-
-- [ ] List posts by a specified tag
-- [ ] New module FootPrint to show your world around trips
-- [ ] Show projects from your orgnization on github. (Siderbar, in open-source page)
-- [ ] To fix bug - could only test on local with internet connected.
-
-## Contributor
-
-* [DONGChuan](https://github.com/DONGChuan)
-* [Mojtaba Koosej](https://github.com/mkoosej)
-* [shahsaurabh0605](https://github.com/shahsaurabh0605)
-* [Z-Beatles](http://www.waynechu.cn/)
-* [LM450N](https://github.com/LM450N)
-* [XhmikosR](https://github.com/XhmikosR)
-
-## License
-
-The Apache License 2.0
-
-Copyright (c) 2016 DONG Chuan
-
-Check [LICENSE](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/LICENSE) file and [official website](http://www.apache.org/licenses/LICENSE-2.0) for details
+外部字体来自 Google Fonts，离线时使用系统字体。发布前请确认个人照片、科研图与 PDF 的公开展示权限，并保留原站 LICENSE 中适用的版权声明。

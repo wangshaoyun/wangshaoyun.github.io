@@ -1,0 +1,4 @@
+---
+const {notes}=Astro.props;
+---
+<div class="note-list">{notes.map((n:any,i:number)=><a class="note-row" href={'/notes/'+n.slug+'/'} data-category={n.category} data-search={n.title.toLowerCase()}><span class="note-number">{String(i+1).padStart(2,'0')}</span><div><span class="eyebrow">{n.category}</span><h2>{n.title}</h2></div><time datetime={n.date}>{n.date}</time><span class="note-arrow">↗</span></a>)}</div>
