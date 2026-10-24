@@ -5,7 +5,7 @@ date: "2024-10-13"
 ---
 
 
-<a href="/assets/notes/2024-10-13-Beams with Circuit.pdf">PDF</a>
+<a href="/assets/notes/2024-10-13-Beams with circuit.pdf">PDF</a>
 
 # 1 Beam with connecting circuit
 
