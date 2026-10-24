@@ -1,0 +1,312 @@
+[
+  {
+    "id": "paper-1",
+    "year": 2026,
+    "title": "Non-Hermitian topological enhanced electromechanical impedance method for ultrasensitive damage detection",
+    "authors": "Qian, H., Chen, J., Wang, S., Shao, N., Wu, Q., & Huang, G.",
+    "venue": "International Journal of Mechanical Sciences, 111639.",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2026.111639",
+    "pdf": "/assets/files/2026IJMS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-2",
+    "year": 2026,
+    "title": "Dynamic Willis-framework homogenization for metabeams with active scatterers",
+    "authors": "Wang, S., Qian, H., Chen, J., Shao, N., Cheng, W., Jiang, H., ... & Huang, G.",
+    "venue": "Journal of the Mechanics and Physics of Solids, 106548.",
+    "url": "https://doi.org/10.1016/j.jmps.2026.106548",
+    "pdf": "/assets/files/2026JMPS1.pdf",
+    "selected": true
+  },
+  {
+    "id": "paper-3",
+    "year": 2026,
+    "title": "Elastodynamics of two-dimensional odd mechanical media: Theory, homogenization and wave characterization",
+    "authors": "Cheng, W., Qian, H., Wang, S., Yang, F., Wang, Q., Zhu, R., ... & Huang, G.",
+    "venue": "Journal of the Mechanics and Physics of Solids, 106502.",
+    "url": "https://doi.org/10.1016/j.jmps.2026.106502",
+    "pdf": "/assets/files/2026JMPS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-4",
+    "year": 2025,
+    "title": "Experimental realization of temporal refraction and reflection in elastic beams",
+    "authors": "Wang, S., Shao, N., Chen, H., Chen, J., Qian, H., Wu, Q., ... & Huang, G.",
+    "venue": "Nature Communications, 16(1), 9520.",
+    "url": "https://www.nature.com/articles/s41467-025-64530-8",
+    "pdf": "/assets/files/2025Nat_Com.pdf",
+    "selected": true
+  },
+  {
+    "id": "paper-5",
+    "year": 2025,
+    "title": "Dissipative Locally Resonant Metasurfaces for Low-Frequency Rayleigh Wave Mitigation",
+    "authors": "Wang, S., Cao, Z., Wang, S., Wu, Q., Chen, J., Cai, Y., & Huang, G.",
+    "venue": "International Journal of Mechanical Sciences, 110233.",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2025.110233",
+    "pdf": "/assets/files/2025SAW.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-6",
+    "year": 2025,
+    "title": "Non‐Hermitian Elastic Metabeams with Nonlinear and Nonlocal Coupling: Physical Realization and Topological Wave Manipulation",
+    "authors": "Qian, H., Chen, J., Wang, S., Shao, N., Liu, K., & Huang, G.",
+    "venue": "Advanced Functional Materials, 36(17), e18194.",
+    "url": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202518194",
+    "pdf": "/assets/files/2025AFM.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-7",
+    "year": 2025,
+    "title": "Exploring non-Hermitian wave dynamics in odd elastic metamaterials",
+    "authors": "Wang, S., & Huang, G.",
+    "venue": "Journal of Intelligent Material Systems and Structures, 36(18-19), 1281-1284.",
+    "url": "https://doi.org/10.1177/1045389X251336619",
+    "pdf": "/assets/files/2025JIMSS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-8",
+    "year": 2025,
+    "title": "Observation of multi-type corner states in right-angled trapezoidal sonic crystals",
+    "authors": "Yang, T., Wu, Q., Wang, S., Wei, R., Liu, Y., Wang, Q., ... & Huang, G.",
+    "venue": "International Journal of Mechanical Sciences, 293, 110144.",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2025.110144",
+    "pdf": "/assets/files/2025IJMS1.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-9",
+    "year": 2024,
+    "title": "Understanding of topological mode and skin mode morphing in 1D and 2D non-Hermitian resonance-based meta-lattices",
+    "authors": "Wu, Q., Wang, S., Qian, H., Wang, Y., & Huang, G.",
+    "venue": "Journal of the Mechanics and Physics of Solids, 105907.",
+    "url": "https://doi.org/10.1016/j.jmps.2024.105907",
+    "pdf": "/assets/files/2024JMPS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-10",
+    "year": 2024,
+    "title": "Sustainable Nanofibril Interfaces for Strain‐Resilient and Multimodal Porous Bioelectronics",
+    "authors": "Zhao, G., Chen, Z., Wang, S., Chen, S., Zhang, F., Andrabi, S. M., ... & Yan, Z.",
+    "venue": "Advanced Materials, 2411587.",
+    "url": "https://doi.org/10.1002/adma.202411587",
+    "pdf": "/assets/files/2024AM.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-11",
+    "year": 2024,
+    "title": "Manipulate dynamic chemical interactions in renewable polymers for 3D printing tunable, healable, and recyclable metamaterials",
+    "authors": "Wu, Y., Qiu, C., Silva, K. J., Shin, J., Wang, S., Zheng, B., ... & Lin, J.",
+    "venue": "Chemical Engineering Journal, 156138.",
+    "url": "https://doi.org/10.1016/j.cej.2024.156138",
+    "pdf": "/assets/files/2024CEJ.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-12",
+    "year": 2024,
+    "title": "Topological spectral bands with frieze groups",
+    "authors": "Lux, F. R., Stoiber, T., Wang, S., Huang, G., & Prodan, E.",
+    "venue": "Journal of Mathematical Physics, 65(6).",
+    "url": "https://doi.org/10.1063/5.0127973",
+    "pdf": "/assets/files/2024JMP.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-13",
+    "year": 2024,
+    "title": "Programmed multimaterial assembly by synergized 3D printing and freeform laser induction",
+    "authors": "Zheng, B., Xie, Y., Xu, S., Meng, A. C., Wang, S., ... & Lin, J.",
+    "venue": "Nature Communications, 15(1), 4541.",
+    "url": "https://doi.org/10.1038/s41467-024-48919-5",
+    "pdf": "/assets/files/2024NC.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-14",
+    "year": 2023,
+    "title": "Smart patterning for topological pumping of elastic surface waves",
+    "authors": "Wang, S., Hu, Z., Wu, Q., Chen, H., Prodan, E., Zhu, R., & Huang, G.",
+    "venue": "Science Advances, 9(30), eadh4310.",
+    "url": "https://www.science.org/doi/10.1126/sciadv.adh4310",
+    "pdf": "/assets/files/2023SciAdv.pdf",
+    "selected": true
+  },
+  {
+    "id": "paper-15",
+    "year": 2023,
+    "title": "Active metamaterials for realizing odd mass density",
+    "authors": "Wu, Q., Xu, X., Qian, H., Wang, S., Zhu, R., Yan, Z., ... & Huang, G.",
+    "venue": "Proceedings of the National Academy of Sciences, 120(21), e2209829120.",
+    "url": "https://doi.org/10.1073/pnas.2209829120",
+    "pdf": "/assets/files/2023PNAS.pdf",
+    "selected": true
+  },
+  {
+    "id": "paper-16",
+    "year": 2023,
+    "title": "A photocured bio-based shape memory thermoplastics for reversible wet adhesion",
+    "authors": "Wu, Y., Su, C., Wang, S., Zheng, B., Mahjoubnia, A., Sattari, K., & Lin, J.",
+    "venue": "Chemical Engineering Journal, 470, 144226.",
+    "url": "https://doi.org/10.1016/j.cej.2023.144226",
+    "pdf": "/assets/files/2023CEJ.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-17",
+    "year": 2022,
+    "title": "Two-dimensional microtwist modeling of topological polarization in hinged Kagome lattices and its experimental validation",
+    "authors": "Chen, H., Wang, S., Li, X., & Huang, G.",
+    "venue": "International Journal of Solids and Structures, 254, 111891.",
+    "url": "https://doi.org/10.1016/j.ijsolstr.2022.111891",
+    "pdf": "/assets/files/2022IJSS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-18",
+    "year": 2020,
+    "title": "An accurate beam theory and its first-order approximation in free vibration analysis",
+    "authors": "Longtao Xie, Shaoyun Wang, Junlei Ding, J Ranjan Banerjee, Ji Wang",
+    "venue": "Journal of Sound and Vibration, 485, 115567.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0022460X20303990?via%3Dihub",
+    "pdf": "/assets/files/2020JSV.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-19",
+    "year": 2020,
+    "title": "Cell-lists Method for Monte Carlo Simulation",
+    "authors": "S. Wang, C. H. Tong.",
+    "venue": "arXiv:2003.05581.",
+    "url": "https://arxiv.org/abs/2003.05581",
+    "pdf": "/assets/files/2003.05581.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-20",
+    "year": 2020,
+    "title": "Charge Reversal of Polyelectrolyte Brushes Under a Collapsing Electric Field",
+    "authors": "T. B. Wang, S. Wang, C. H. Tong.",
+    "venue": "Chemical Physics Chemical Physics, 536, 110810.",
+    "url": "https://doi.org/10.1016/j.chemphys.2020.110810",
+    "pdf": "/assets/files/2020Chemical_Physics.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-21",
+    "year": 2020,
+    "title": "Surface Switching of Mixed Polyelectrolyte Brushes Made of 4-arm Stars and Linear Chains: MD Simulations",
+    "authors": "S. Wang, C. H. Tong",
+    "venue": "Journal of Applied Physics, 127, 074301. Editor's pick.",
+    "url": "https://aip.scitation.org/doi/10.1063/1.5130643",
+    "pdf": "/assets/files/2020JAP.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-22",
+    "year": 2020,
+    "title": "The axisymmetric Rayleigh waves in a semi-infinite elastic solid",
+    "authors": "Ji Wang, Shaoyun Wang, Longtao Xie, Yangyang Zhang, Lili Yuan, Jianke Du, Han Zhang",
+    "venue": "Theoretical & Applied Mechanics Letters, 10 (2020) 000-4.",
+    "url": "http://dx.doi.org/10.1016/j.taml.2020.01.018",
+    "pdf": "/assets/files/2020TAML.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-23",
+    "year": 2019,
+    "title": "Simulations of 3-Arm Polyelectrolyte Star Brushes under External Electric Fields",
+    "authors": "F. Zhang, S. Y. Wang, H. T. Ding, C. H. Tong",
+    "venue": "Soft Matter, 15, 2560-2570. (Back cover).",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2019/sm/c8sm02131g#!divAbstract",
+    "pdf": "/assets/files/2019Soft_Matter.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-24",
+    "year": 2019,
+    "title": "Novel Cuts of Triply-Rotated Quartz Crystal for Resonators With      Ideal Cubic Frequency-Temperature Relations",
+    "authors": "S. Wang, L. T. Xie, L. M. Zhang,     R. X. Wu, J. K. Du, J. Wang",
+    "venue": "Proceedings     of the 2019 Symposium on Piezoelectricity, Acoustic Waves and Device     Applications, Paper     number: 18584340.",
+    "url": "https://ieeexplore.ieee.org/document/8681866",
+    "pdf": "/assets/files/2019SPWADA.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-25",
+    "year": 2018,
+    "title": "An Analysis of the Thickness Vibration of an      Unelectroded Doubly-rotated Quartz Circular Plate",
+    "authors": "Xie. L. T., S. Y.     Wang, C. Z. Zhang, J. Wang",
+    "venue": "Journal of Acoustical Society of     America, 144 (2), pp. 814-821.",
+    "url": "https://asa.scitation.org/doi/10.1121/1.5050609?af=R",
+    "pdf": "/assets/files/2018JASA.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-26",
+    "year": 2018,
+    "title": "Novel Quartz Crystal Cuts for SAW Substrates with      Cubic Frequency-temperature Relations,",
+    "authors": "S. Wang, L. M. Zhang, L. T.     Xie, B. Huang, A. B. Zhang, J. K. Du, R. X. Wu, J. Wang, Y. K. Yong",
+    "venue": "2018 IEEE International Ultrasonics     Symposium, Paper number: 18348332.",
+    "url": "https://ieeexplore.ieee.org/document/8579853",
+    "pdf": "/assets/files/2018IUS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-27",
+    "year": 2018,
+    "title": "Frequency-temperature Relations of Novel Cuts of      Quartz Crystals for Resonator Applications",
+    "authors": "Zhang, L. M., Wang     S. Y., L. T. Xie, T. F. Ma, J. K. Du, J. Wang",
+    "venue": "2018 IEEE International Frequency     Control Symposium, Paper number: 18384201.",
+    "url": "https://ieeexplore.ieee.org/document/8597466",
+    "pdf": "/assets/files/2018IFCS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-28",
+    "year": 2017,
+    "title": "Optimal Orientations of Quartz Crystals for Bulk      Acoustic Wave Resonators with the Consideration of Thermal Properties,",
+    "authors": "J. Wang, L. M. Zhang.,     S. Wang., L. T. Xie, B. Huang, T. F. Ma, J. K. Du, M. C. Chao,     J. L. Shen, R. X. Wu, H. F. Zhang",
+    "venue": "2017 Proceedings of Meetings on Acoustics, 32 (1).",
+    "url": "https://asa.scitation.org/doi/10.1121/2.0000724",
+    "pdf": "/assets/files/2017ICU.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-29",
+    "year": 2016,
+    "title": "The Frequency Equation of Thickness-shear      Vibrations of SC-cut Quartz Crystal Plates",
+    "authors": "S. Wang, R. X. Wu, S. Y.     Pao, L. M. Zhang, T. F. Ma, J. K. Du, J. Wang",
+    "venue": "Proceedings of the 2016 Symposium     on Piezoelectricity, Acoustic Waves and Device Applications, pp. 230-234.",
+    "url": "https://ieeexplore.ieee.org/document/7829994",
+    "pdf": "/assets/files/2016SPAWADA1.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-30",
+    "year": 2016,
+    "title": "Extension of the Frequency Aging Model of Crystal      Resonators and Oscillators by the Arrhenius Factor",
+    "authors": "S. Wang, B. Neubig, J.     H. Wu, T. F. Ma, J. K. Du, J. Wang",
+    "venue": "Proceedings of the 2016     Symposium on Piezoelectricity, Acoustic Waves and Device Applications,     pp. 269-272.",
+    "url": "https://ieeexplore.ieee.org/document/7830003",
+    "pdf": "/assets/files/2016SPAWADA.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-31",
+    "year": 2015,
+    "title": "Aging Models and Parameters of Quartz Crystal      Resonators and Oscillators",
+    "authors": "S. Wang, B. Neubig, K. Sato,     T. Hosoda, E. Seydel, J. H. Wu, T. F. Ma, J. Wang",
+    "venue": "Proceedings of the 2015 Symposium on     Piezoelectricity, Acoustic Waves and Device Applications, pp. 382-385.",
+    "url": "https://ieeexplore.ieee.org/document/7364512/",
+    "pdf": "/assets/files/2015SPAWADA.pdf",
+    "selected": false
+  }
+]

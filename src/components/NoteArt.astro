@@ -1,0 +1,22 @@
+---
+const {kind}=Astro.props;
+---
+<svg viewBox="0 0 420 245" fill="none" aria-hidden="true" class="note-art">
+{kind==='physics' ? <>
+<path d="M48 68H156M102 68v111M102 68L63 158M102 68l65 75" stroke="currentColor" stroke-width="1.2"/>
+<path d="M63 158Q109 205 167 143" stroke="currentColor" stroke-dasharray="3 4" opacity=".5"/>
+<circle cx="102" cy="68" r="3" fill="currentColor"/><circle cx="63" cy="158" r="9" fill="#f4f1e8" stroke="currentColor"/><circle cx="102" cy="179" r="9" fill="#f4f1e8" stroke="currentColor"/><circle cx="167" cy="143" r="9" fill="#f4f1e8" stroke="currentColor"/>
+<ellipse cx="289" cy="102" rx="77" ry="37" transform="rotate(-27 289 102)" stroke="currentColor"/><ellipse cx="289" cy="102" rx="52" ry="70" transform="rotate(32 289 102)" stroke="currentColor" stroke-dasharray="2 4" opacity=".45"/><circle cx="289" cy="102" r="4" fill="currentColor"/><circle cx="343" cy="66" r="5" fill="#f4f1e8" stroke="currentColor"/>
+<path d="M206 195h174" stroke="currentColor" opacity=".3"/><path d={Array.from({length:181},(_,i)=>`${i?'L':'M'}${205+i} ${195-Math.sin(i*.36)*Math.exp(-(((i-90)/40)**2))*24}`).join(' ')} stroke="var(--topic-color)" stroke-width="1.3"/>
+</> : kind==='mechanics' ? <>
+{Array.from({length:9},(_,i)=><path d={`M38 ${48+i*8}C135 ${8+i*8},188 ${143+i*6},278 ${77+i*7}S360 ${45+i*6},385 ${55+i*6}`} stroke="currentColor" opacity={.35+i*.06}/>)}
+<path d="M38 123C135 83 188 207 278 140S360 105 385 115" stroke="var(--topic-color)" stroke-width="1.6"/>
+{Array.from({length:13},(_,i)=><g><path d={`M${52+i*26} 186l13 23 13-23`} stroke="currentColor" opacity=".35"/><circle cx={52+i*26} cy="186" r="2.5" fill="currentColor"/><circle cx={65+i*26} cy="209" r="2.5" fill="var(--topic-color)"/></g>)}
+<path d="M50 186h315M64 209h312" stroke="currentColor" opacity=".3"/>
+</> : <>
+<path d="M43 192H380M63 210V42" stroke="currentColor" opacity=".5"/>
+{[0,1,2,3,4].map(i=><path d={`M65 ${175-i*8}C130 ${180-i*30},155 ${35+i*10},219 ${63+i*20}S315 ${185-i*23},368 ${60+i*17}`} stroke={i===2?'var(--topic-color)':'currentColor'} opacity={i===2?1:.3} stroke-width={i===2?1.8:1}/>)}
+{Array.from({length:7},(_,i)=><g><path d={`M${90+i*40} 48V193`} stroke="currentColor" stroke-dasharray="2 5" opacity=".15"/><circle cx={90+i*40} cy={123-Math.sin(i*.9)*52} r="3" fill="var(--topic-color)"/></g>)}
+<path d="M293 28h75m-75 8h55" stroke="currentColor" opacity=".3"/>
+</>}
+</svg>

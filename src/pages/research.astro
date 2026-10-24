@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Project from '../components/Project.astro';
+import projects from '../data/projects.json';
+---
+<Layout title="Research — Shaoyun Wang"><section class="wrap page-heading"><span class="eyebrow">QUESTIONS, METHODS & DISCOVERIES</span><h1>Research</h1><p>Exploring how geometry, active interactions, and temporal modulation unlock new behaviors in elastic and mechanical systems.</p></section><section class="wrap section compact"><div class="projects">{projects.map((project,index)=><Project project={project} index={index}/>)}</div></section></Layout>

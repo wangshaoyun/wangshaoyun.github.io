@@ -1,0 +1,3 @@
+import redirects from '../data/redirects.json';
+export function getStaticPaths(){return redirects.map(r=>({params:{legacy:r.from.slice(1)},props:{to:r.to}}))}
+export function GET({props}:{props:{to:string}}){const to=props.to;return new Response(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=${to}"><link rel="canonical" href="https://wangshaoyun.github.io${to}"><title>Note moved — Shaoyun Wang</title></head><body><p>This note has moved. <a href="${to}">Continue reading →</a></p></body></html>`,{headers:{'Content-Type':'text/html; charset=utf-8'}})}
