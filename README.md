@@ -51,6 +51,8 @@ BibTeX 下载目前是由旧站元数据生成的最小引用（标题、年份�
 
 ## GitHub 发布
 
+搜索引擎：`/sitemap.xml` 在构建时自动收集正式页面、Notes 分类及笔记，新增笔记无需手动维护地图。`/robots.txt` 声明地图地址，各正式页面包含 canonical 链接，404 页面标记为 noindex；旧验证文件继续保留。Google Search Console 使用网址前缀 `https://wangshaoyun.github.io/`，在 Sitemaps 提交 `sitemap.xml`。提交不保证立即收录或排名。
+
 `.github/workflows/deploy.yml` 对应原仓库的 `master` 分支。Pull request 自动构建并检查本地链接；合并到 master 后自动部署。
 本目录已连接原仓库 `https://github.com/wangshaoyun/wangshaoyun.github.io.git`，并保留旧站快照分支 `legacy-jekyll-2026-10-24`。原本地目录仍独立保留。
 目标仓库的 Settings → Pages 已选择 GitHub Actions。推送 master 将自动安装、构建、检查内部链接（包括文件名大小写）并部署；检查失败时不会替换线上网站。用户主页继续使用 https://wangshaoyun.github.io/ 。

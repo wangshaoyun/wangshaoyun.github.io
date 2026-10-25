@@ -3,10 +3,11 @@ import profile from '../data/profile.json';
 import '../styles/global.css';
 import '../styles/readability.css';
 import 'katex/dist/katex.min.css';
-const {title='Shaoyun Wang — Waves & Metamaterials',description=profile.intro,pageClass=''}=Astro.props;
+const {title='Shaoyun Wang — Waves & Metamaterials',description=profile.intro,pageClass='',indexable=true}=Astro.props;
+const canonicalURL=new URL(Astro.url.pathname,Astro.site);
 const nav=[['/research/','Research'],['/publications/','Publications'],['/notes/','Notes'],['/about/','About']];
 ---
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="description" content={description}/><title>{title}</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"/><meta name="theme-color" content="#f8f8f4"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/></head><body class={pageClass}>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="description" content={description}/><title>{title}</title>{indexable?<><link rel="canonical" href={canonicalURL}/><meta property="og:url" content={canonicalURL}/></>:<meta name="robots" content="noindex"/>}<link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/favicon.svg" type="image/svg+xml"/><meta name="theme-color" content="#f8f8f4"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/></head><body class={pageClass}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="header wrap"><a class="brand" href="/">Shaoyun Wang<span class="brand-dot"></span></a><nav aria-label="Main navigation">{nav.map(([href,label])=><a href={href} aria-current={Astro.url.pathname.startsWith(href)?'page':undefined}>{label}</a>)}<a class="nav-cv" href={profile.cv}>CV <span aria-hidden="true">↗</span></a></nav></header>
 <main id="main"><slot/></main>
