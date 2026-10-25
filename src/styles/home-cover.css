@@ -1,0 +1,66 @@
+/* Local cover experiment. Other pages retain the published reading scale. */
+.home-cover-preview .header,
+.home-cover-preview .environment-hero {
+  width: calc(100% - clamp(64px, 8vw, 160px));
+  max-width: 1440px;
+}
+.home-cover-preview .environment-hero {
+  min-height: calc(100svh - 105px);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.04fr);
+  gap: clamp(40px, 4.5vw, 80px);
+  padding-block: clamp(48px, 6svh, 80px);
+  align-items: center;
+}
+.home-cover-preview .environment-hero h1 {
+  font-size: clamp(58px, 5.2vw, 88px);
+  line-height: 1.04;
+  letter-spacing: -1.6px;
+  margin-block: 0 30px;
+}
+.home-cover-preview .environment-hero .intro {
+  font-size: clamp(18px, 1.3vw, 22px);
+  max-width: 36rem;
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+.home-cover-preview .hero-links { margin-top: 34px; }
+.home-cover-preview .hero-links .button,
+.home-cover-preview .hero-links .text-link { font-size: 1.125rem; }
+.home-cover-preview .environment-figure {
+  width: 100%;
+  max-width: none;
+  padding-top: 0;
+}
+.home-cover-preview .research-field {
+  font-size: clamp(20px, 1.5vw, 25px);
+  margin-bottom: 24px;
+}
+.home-cover-preview .diagram-readmore { font-size: 1rem; margin-top: 24px; }
+
+/* Shorter screens keep the complete idea visible without clipping controls. */
+@media (min-width: 1001px) and (max-height: 800px) {
+  .home-cover-preview .environment-hero { padding-block: 32px; }
+  .home-cover-preview .environment-hero h1 { font-size: clamp(52px, 4.7vw, 72px); margin-bottom: 24px; }
+  .home-cover-preview .hero-links { margin-top: 26px; }
+}
+@media (max-width: 1000px) {
+  .home-cover-preview .environment-hero {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: calc(100svh - 105px);
+    gap: 52px;
+    padding-block: 52px;
+  }
+  .home-cover-preview .environment-hero h1 { font-size: clamp(52px, 7vw, 72px); max-width: 48rem; }
+  .home-cover-preview .environment-hero .intro { max-width: 42rem; }
+  .home-cover-preview .environment-figure { max-width: 640px; margin-inline: auto; }
+}
+@media (max-width: 640px) {
+  .home-cover-preview .header,
+  .home-cover-preview .environment-hero { width: calc(100% - 40px); }
+  .home-cover-preview .environment-hero { gap: 36px; padding-block: 38px 46px; }
+  .home-cover-preview .environment-hero h1 { font-size: clamp(44px, 11vw, 58px); letter-spacing: -1px; }
+  .home-cover-preview .hero-links .button,
+  .home-cover-preview .hero-links .text-link { font-size: 1rem; }
+  .home-cover-preview .research-field { font-size: 1.125rem; }
+  .home-cover-preview .diagram-readmore { font-size: .875rem; }
+}
