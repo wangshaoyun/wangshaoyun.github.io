@@ -1,5 +1,15 @@
 [
   {
+    "id": "paper-32",
+    "year": 2026,
+    "title": "Hierarchical effective modeling of elastic lattice metamaterials: Micro-inertia and frequency-dependent modulus characterization",
+    "authors": "Shao, N., Wang, S., Qian, H., Chen, J., & Huang, G.",
+    "venue": "Journal of Sound and Vibration, 643, 119973.",
+    "url": "https://doi.org/10.1016/j.jsv.2026.119973",
+    "pdf": "",
+    "selected": false
+  },
+  {
     "id": "paper-1",
     "year": 2026,
     "title": "Non-Hermitian topological enhanced electromechanical impedance method for ultrasensitive damage detection",
@@ -167,6 +177,36 @@
     "venue": "International Journal of Solids and Structures, 254, 111891.",
     "url": "https://doi.org/10.1016/j.ijsolstr.2022.111891",
     "pdf": "/assets/files/2022IJSS.pdf",
+    "selected": false
+  },
+  {
+    "id": "paper-33",
+    "year": 2021,
+    "title": "The collapse of polyelectrolyte brushes made of 4-arm stars mediated by trivalent salt counterions",
+    "authors": "Wang, L., Wang, S., & Tong, C.",
+    "venue": "Molecular Simulation, 47(12), 960–972.",
+    "url": "https://doi.org/10.1080/08927022.2021.1932875",
+    "pdf": "",
+    "selected": false
+  },
+  {
+    "id": "paper-34",
+    "year": 2021,
+    "title": "Collapse of four-arm stars polyelectrolyte brushes under an electric field in the presence of trivalent salt coions",
+    "authors": "Ji, Y., Wang, S., & Tong, C.",
+    "venue": "Chinese Journal of Chemical Physics, 34(3), 356–364.",
+    "url": "https://doi.org/10.1063/1674-0068/cjcp2004059",
+    "pdf": "",
+    "selected": false
+  },
+  {
+    "id": "paper-35",
+    "year": 2020,
+    "title": "A Novel Cut Quartz Crystal Plate with High Thermal Stability at a Lower Turnover Temperature",
+    "authors": "Huang, Q., Wang, S., Ma, T., Wang, J., Shen, J., Pao, S.-Y., & Chao, M.-C.",
+    "venue": "2020 Joint Conference of the IEEE International Frequency Control Symposium and International Symposium on Applications of Ferroelectrics (IFCS-ISAF), 1–4.",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9234865/",
+    "pdf": "",
     "selected": false
   },
   {
